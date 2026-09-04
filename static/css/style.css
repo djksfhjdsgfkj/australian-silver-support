@@ -1,0 +1,1485 @@
+@font-face {
+    font-family:Inter;
+    src:local("Inter");
+    font-style:normal
+}
+
+:root {
+    --navy:#062b69;
+    --black:#0a0a0a;
+    --header:#ececec;
+    --page:#f6f9fd;
+    --lime:#f3ffa2;
+    --yellow:#fff0a4;
+    --purple:#dab4fa;
+    --blue:#9ed8fa;
+    --aqua:#a9e6f4;
+    --pale:#e8f0fa;
+    --green:#3eb34d;
+    --muted:#4b6a92;
+    --border:#d8e4f2
+}
+
+* {
+    box-sizing:border-box
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    background:#dfe4ea;
+    font-family:Inter,Arial,sans-serif;
+    color:var(--navy)
+}
+
+a {
+    color:inherit
+}
+
+button,input {
+    font:inherit
+}
+
+.webpage {
+    width:1496px;
+    height:850px;
+    position:relative;
+    margin:0 auto;
+    background:#fff;
+    overflow:hidden
+}
+
+/* navigation */
+.navbar {
+    position:absolute;
+    left:0;
+    top:0;
+    width:1496px;
+    height:89px;
+    background:#ececec;
+    border-bottom:4px solid #111;
+    z-index:20
+}
+
+.logo {
+    position:absolute;
+    left:8px;
+    top:8px;
+    width:255px;
+    height:72px;
+    display:block
+}
+
+.logo img {
+    width:245px;
+    height:72px;
+    object-fit:contain;
+    object-position:left center
+}
+
+.nav-item {
+    position:absolute;
+    top:20px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    text-decoration:none;
+    color:#0a0a0a;
+    font-weight:800;
+    font-size:27px;
+    line-height:30px;
+    border-radius:8px
+}
+
+.nav-item:hover,.nav-item:focus {
+    background:#fff
+}
+
+.nav-item.active {
+    color:#062b69
+}
+
+.home-link {
+    left:456px;
+    width:86px
+}
+
+.learn-link {
+    left:594px;
+    width:84px
+}
+
+.glossary-link {
+    left:744px;
+    width:130px
+}
+
+.game-link {
+    left:901px;
+    width:220px;
+    top:12px;
+    height:66px
+}
+
+.about-link {
+    left:1160px;
+    width:132px
+}
+
+.listen-button {
+    position:absolute;
+    left:1310px;
+    top:21px;
+    width:168px;
+    height:55px;
+    border:0;
+    border-radius:14px;
+    background:#062b69;
+    color:#fff;
+    font-size:26px;
+    font-weight:800;
+    cursor:pointer
+}
+
+.listen-button:hover,.listen-button:focus {
+    outline:3px solid #9ed8fa
+}
+
+/* footer */
+.footer {
+    position:absolute;
+    left:0;
+    top:795px;
+    width:1496px;
+    height:55px;
+    background:#062b69;
+    color:#fff;
+    z-index:20
+}
+
+.footer a,.footer span {
+    position:absolute;
+    top:7px;
+    height:40px;
+    line-height:40px;
+    color:#fff;
+    text-decoration:none;
+    font-size:25px;
+    font-weight:400;
+    white-space:nowrap
+}
+
+.help-link {
+    left:68px
+}
+
+.footer-line {
+    position:absolute;
+    left:502px;
+    top:11px;
+    width:4px;
+    height:35px;
+    background:#fff
+}
+
+.support-message {
+    left:551px
+}
+
+.safe-message {
+    left:1099px
+}
+
+.footer-icon {
+    display:inline-block;
+    margin-right:10px;
+    font-size:28px
+}
+
+.main {
+    position:absolute;
+    left:0;
+    top:89px;
+    width:1496px;
+    height:706px;
+    background:#f6f9fd;
+    overflow:hidden
+}
+
+
+/* home page */
+.hero-left {
+    position:absolute;
+    left:0;
+    top:0;
+    width:652px;
+    height:387px;
+    background:#eee
+}
+
+.hero-photo {
+    position:absolute;
+    left:652px;
+    top:0;
+    width:844px;
+    height:387px;
+    overflow:hidden
+}
+
+.hero-photo>img.hero-man {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center 46%
+}
+
+.hero-shield {
+    position:absolute;
+    left:531px;
+    top:105px;
+    width:240px;
+    height:270px;
+    object-fit:contain;
+    z-index:5
+}
+
+.hero-title {
+    position:absolute;
+    left:0;
+    top:18px;
+    width:579px;
+    height:130px;
+    text-align:center;
+    font-weight:800;
+    font-size:48px;
+    line-height:72px
+}
+
+.hero-text {
+    position:absolute;
+    left:48px;
+    top:176px;
+    width:406px;
+    font-size:24px;
+    line-height:32px;
+    font-weight:600
+}
+
+.start-button {
+    position:absolute;
+    left:50px;
+    top:297px;
+    width:300px;
+    height:68px;
+    border-radius:22px;
+    background:#3eb34d;
+    color:#fff;
+    text-decoration:none;
+    font-size:28px;
+    font-weight:800;
+    display:flex;
+    align-items:center;
+    padding-left:82px
+}
+
+.start-arrow {
+    position:absolute;
+    left:28px;
+    top:12px;
+    width:43px;
+    height:43px;
+    border-radius:50%;
+    background:#fff;
+    color:#3eb34d;
+    display:grid;
+    place-items:center;
+    font-size:27px
+}
+
+.learn-background {
+    position:absolute;
+    left:0;
+    top:387px;
+    width:1496px;
+    height:319px;
+    background:#e9f2fc
+}
+
+.learn-heading {
+    position:absolute;
+    left:454px;
+    top:388px;
+    width:592px;
+    height:40px;
+    text-align:center;
+    font-size:31px;
+    line-height:36px;
+    font-weight:800
+}
+
+.learn-card {
+    position:absolute;
+    top:426px;
+    width:252px;
+    height:258px;
+    border-radius:36px;
+    padding:98px 18px 62px;
+    text-align:center;
+    font-size:20px;
+    line-height:27px;
+    font-weight:600
+}
+
+.scam-card {
+    left:18px;
+    background:#f5ffa6
+}
+
+.website-card {
+    left:313px;
+    width:263px;
+    background:#fff0a4
+}
+
+.wifi-card {
+    left:617px;
+    background:#dab4fa
+}
+
+.glossary-card-home {
+    left:915px;
+    background:#9ed8fa
+}
+
+.game-card {
+    left:1214px;
+    background:#a9e6f4
+}
+
+.card-icon {
+    position:absolute;
+    left:17px;
+    top:10px;
+    width:105px;
+    height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+.card-icon img {
+    max-width:110px;
+    max-height:74px;
+    object-fit:contain
+}
+
+.mail-icon {
+    font-size:58px
+}
+
+.card-next {
+    position:absolute;
+    right:8px;
+    bottom:8px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:#002b70;
+    color:#fff;
+    text-decoration:none;
+    display:grid;
+    place-items:center;
+    font-size:44px;
+    line-height:1;
+    font-weight:900
+}
+
+
+/* glossary */
+.glossary-label {
+    position:absolute;
+    left:70px;
+    top:27px;
+    font-size:15px;
+    line-height:20px;
+    font-weight:800;
+    color:#4b6a92
+}
+
+.glossary-title {
+    position:absolute;
+    left:70px;
+    top:54px;
+    width:720px;
+    font-size:48px;
+    line-height:56px;
+    font-weight:800;
+    margin:0
+}
+
+.glossary-intro {
+    position:absolute;
+    left:70px;
+    top:116px;
+    width:720px;
+    font-size:22px;
+    line-height:30px;
+    font-weight:600
+}
+
+.glossary-help {
+    position:absolute;
+    left:1020px;
+    top:30px;
+    width:406px;
+    height:116px;
+    border:1px solid #bfd0e6;
+    border-radius:22px;
+    background:#fff;
+    box-shadow:0 7px 20px rgba(5,31,74,.09)
+}
+
+.info-icon {
+    position:absolute;
+    left:22px;
+    top:27px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#e8f0fa;
+    display:grid;
+    place-items:center;
+    font-weight:800;
+    font-size:23px
+}
+
+.glossary-help h3 {
+    position:absolute;
+    left:78px;
+    top:15px;
+    margin:0;
+    font-size:18px
+}
+
+.glossary-help p {
+    position:absolute;
+    left:78px;
+    top:33px;
+    width:280px;
+    margin:0;
+    color:#4b6a92;
+    font-size:15px;
+    line-height:21px
+}
+
+.glossary-card {
+    position:absolute;
+    width:386px;
+    height:205px;
+    border:1px solid #d8e4f2;
+    border-radius:28px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:22px 24px
+}
+
+.phishing-card {
+    left:70px;
+    top:181px;
+    background:#f3ffa2
+}
+
+.https-card {
+    left:520px;
+    top:181px;
+    background:#fff0a4
+}
+
+.malware-card {
+    left:970px;
+    top:181px;
+    background:#dab4fa
+}
+
+.password-card {
+    left:70px;
+    top:426px;
+    background:#9ed8fa
+}
+
+.two-factor-card {
+    left:520px;
+    top:426px;
+    background:#a9e6f4
+}
+
+.public-wifi-card {
+    left:970px;
+    top:426px;
+    background:#e8f0fc
+}
+
+.glossary-card h2 {
+    font-size:25px;
+    line-height:30px;
+    margin:0 0 14px
+}
+
+.glossary-card p {
+    font-size:17px;
+    line-height:25px;
+    margin:0;
+    width:338px
+}
+
+.meaning-button {
+    position:absolute;
+    right:24px;
+    bottom:14px;
+    width:138px;
+    height:34px;
+    border:0;
+    border-radius:17px;
+    background:#062b69;
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    cursor:pointer
+}
+
+.rollover {
+    display:none;
+    position:absolute;
+    left:24px;
+    right:24px;
+    top:67px;
+    background:rgba(255,255,255,.95);
+    border-radius:12px;
+    padding:10px;
+    font-size:15px;
+    line-height:20px;
+    z-index:3
+}
+
+.glossary-card.open .rollover,.glossary-card:hover .rollover {
+    display:block
+}
+
+.glossary-tip {
+    position:absolute;
+    left:70px;
+    top:654px;
+    width:1356px;
+    height:35px;
+    border-radius:17px;
+    background:#e8f0fa;
+    color:#4b6a92;
+    text-align:center;
+    font-size:15px;
+    line-height:35px;
+    font-weight:600
+}
+
+
+/* about page */
+.about-label {
+    position:absolute;
+    left:80px;
+    top:33px;
+    font-size:16px;
+    line-height:20px;
+    font-weight:800;
+    color:#4b6a92
+}
+
+.about-title {
+    position:absolute;
+    left:80px;
+    top:60px;
+    width:660px;
+    font-size:52px;
+    line-height:58px;
+    font-weight:800;
+    margin:0
+}
+
+.about-intro {
+    position:absolute;
+    left:80px;
+    top:189px;
+    width:660px;
+    font-size:25px;
+    line-height:34px;
+    font-weight:600;
+    margin:0
+}
+
+.mission {
+    position:absolute;
+    left:790px;
+    top:31px;
+    width:626px;
+    height:252px;
+    border-radius:30px;
+    background:#062b69;
+    color:#fff;
+    box-shadow:0 8px 22px rgba(5,31,74,.1);
+    padding:34px 40px
+}
+
+.mission .mission-label {
+    font-size:16px;
+    line-height:20px;
+    color:#bfd6f6;
+    font-weight:800;
+    margin:0
+}
+
+.mission h2 {
+    font-size:32px;
+    line-height:39px;
+    margin:11px 0 6px
+}
+
+.mission p {
+    font-size:18px;
+    line-height:27px;
+    margin:0;
+    width:515px
+}
+
+.support-title {
+    position:absolute;
+    left:80px;
+    top:328px;
+    width:660px;
+    font-size:29px;
+    line-height:34px;
+    margin:0
+}
+
+.support-intro {
+    position:absolute;
+    left:80px;
+    top:366px;
+    width:760px;
+    font-size:19px;
+    line-height:27px;
+    color:#4b6a92;
+    margin:0
+}
+
+.value-card {
+    position:absolute;
+    top:411px;
+    width:372px;
+    height:220px;
+    border:1px solid #d9e5f3;
+    border-radius:30px;
+    box-shadow:0 8px 22px rgba(5,31,74,.1);
+    padding:28px
+}
+
+.learn-value {
+    left:80px;
+    background:#f3ffa2
+}
+
+.safe-value {
+    left:522px;
+    background:#fff0a4
+}
+
+.help-value {
+    left:964px;
+    background:#a9e6f4
+}
+
+.value-card h3 {
+    font-size:24px;
+    line-height:29px;
+    margin:0 0 11px
+}
+
+.value-card p {
+    font-size:18px;
+    line-height:27px;
+    margin:0
+}
+
+.trust-strip {
+    position:absolute;
+    left:80px;
+    top:655px;
+    width:1336px;
+    height:34px;
+    border-radius:17px;
+    background:#e8f0fa;
+    color:#4b6a92;
+    text-align:center;
+    font-size:15px;
+    line-height:34px;
+    font-weight:600
+}
+
+
+/* lesson pages */
+.page-content {
+    padding:27px 70px
+}
+
+.page-label {
+    font-size:15px;
+    font-weight:800;
+    color:#4b6a92;
+    margin:0
+}
+
+.page-title {
+    font-size:48px;
+    line-height:56px;
+    margin:2px 0 0;
+    font-weight:800
+}
+
+.page-intro {
+    font-size:22px;
+    line-height:30px;
+    font-weight:600;
+    margin:4px 0 20px
+}
+
+.lesson-grid {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:24px
+}
+
+.lesson-card {
+    height:245px;
+    border:1px solid #d8e4f2;
+    border-radius:28px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:24px
+}
+
+.lesson-card:nth-child(1) {
+    background:#f3ffa2
+}
+
+.lesson-card:nth-child(2) {
+    background:#fff0a4
+}
+
+.lesson-card:nth-child(3) {
+    background:#dab4fa
+}
+
+.lesson-card:nth-child(4) {
+    background:#a9e6f4
+}
+
+.lesson-card h2 {
+    font-size:25px;
+    margin:0 0 10px
+}
+
+.lesson-card p {
+    font-size:17px;
+    line-height:25px
+}
+
+.button {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background:#062b69;
+    color:#fff;
+    text-decoration:none;
+    border:0;
+    border-radius:17px;
+    padding:9px 18px;
+    font-weight:700;
+    cursor:pointer
+}
+
+.info-box {
+    background:#fff;
+    border:1px solid #d8e4f2;
+    border-radius:24px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:20px 24px;
+    margin:15px 0
+}
+
+.info-box h2 {
+    font-size:25px;
+    margin:0 0 7px
+}
+
+.info-box p,.info-box li {
+    font-size:17px;
+    line-height:25px
+}
+
+.info-box li {
+    margin:5px 0
+}
+
+.safe-example {
+    background:#effbf1;
+    border-left:7px solid #3eb34d;
+    padding:12px;
+    border-radius:12px
+}
+
+.warning-example {
+    background:#fff0f2;
+    border-left:7px solid #c83c4a;
+    padding:12px;
+    border-radius:12px
+}
+
+.rollover-wrap {
+    font-weight:800;
+    text-decoration:underline dotted;
+    position:relative;
+    cursor:help
+}
+
+.rollover-wrap span {
+    display:none;
+    position:absolute;
+    left:0;
+    top:25px;
+    width:260px;
+    background:#062b69;
+    color:#fff;
+    border-radius:10px;
+    padding:10px;
+    z-index:5;
+    font-weight:400
+}
+
+.rollover-wrap:hover span,.rollover-wrap:focus span {
+    display:block
+}
+
+/* escape the scam game */
+.game-page {
+    width:1000px;
+    margin:0 auto
+}
+
+.game-info {
+    display:flex;
+    gap:12px;
+    margin:10px 0
+}
+
+.game-label {
+    background:#fff;
+    border:1px solid #d8e4f2;
+    border-radius:999px;
+    padding:7px 13px;
+    font-weight:700
+}
+
+.game-progress {
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:8px;
+    margin:12px 0
+}
+
+.game-progress div {
+    height:12px;
+    background:#d8e2ef;
+    border-radius:8px
+}
+
+.game-progress .done {
+    background:#3eb34d
+}
+
+.question-box {
+    background:#fff;
+    border:1px solid #d8e4f2;
+    border-radius:28px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:24px
+}
+
+.scenario-box {
+    background:#eef4fb;
+    border-radius:16px;
+    padding:14px;
+    margin:10px 0;
+    font-size:17px
+}
+
+.answer-buttons {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px
+}
+
+.answer-button {
+    height:100px;
+    border:3px solid #cbd7e6;
+    border-radius:18px;
+    background:#fff;
+    color:#062b69;
+    text-align:left;
+    padding:15px;
+    font-weight:600;
+    cursor:pointer
+}
+
+.feedback {
+    display:none;
+    margin-top:12px;
+    padding:12px;
+    border-radius:12px;
+    font-weight:700
+}
+
+.feedback.show {
+    display:block
+}
+
+.feedback.good {
+    background:#e9faec;
+    color:#176b24
+}
+
+.feedback.bad {
+    background:#fff0f2;
+    color:#8c2630
+}
+
+.safety-tip {
+    background:#fff8d5;
+    padding:11px;
+    border-radius:12px;
+    margin-top:10px
+}
+
+.score-box {
+    width:760px;
+    margin:35px auto;
+    background:#fff;
+    border-radius:28px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:30px;
+    text-align:center
+}
+
+.score-big {
+    font-size:52px;
+    font-weight:800
+}
+
+.help-grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:22px
+}
+
+.text-control {
+    border:2px solid #062b69;
+    background:#fff;
+    color:#062b69;
+    border-radius:12px;
+    padding:9px 14px;
+    font-weight:700;
+    cursor:pointer
+}
+
+@media(max-width:1496px) {
+    body {
+        overflow-x:auto
+    }
+
+    .webpage {
+        margin-left:0
+    }
+
+}
+
+/* ===== FIGMA TRANSLATED PAGES ===== */
+.figma-page { position:absolute; }
+.fp-label { position:absolute; left:70px; top:27px; width:700px; height:22px; margin:0; color:#4b6a92; font-size:15px; line-height:20px; font-weight:800; }
+.fp-title { position:absolute; left:70px; top:56px; width:1050px; height:60px; margin:0; color:#062b69; font-size:48px; line-height:56px; font-weight:800; }
+.fp-intro { position:absolute; left:70px; top:122px; width:1120px; height:60px; margin:0; color:#062b69; font-size:21px; line-height:30px; font-weight:600; }
+.learn-tile,.lesson-panel,.check-card,.wifi-habits,.wifi-why,.password-panel,.wide-info,.compare-panel,.help-card,.result-card,.figma-game-card { position:absolute; border:1px solid #d6e3f2; }
+.learn-tile { top:201px; width:310px; height:235px; border-radius:28px; padding:24px; }
+.learn-tile h2,.lesson-panel h2,.check-card h2,.wifi-habits h2,.wifi-why h2,.password-panel h2,.wide-info h2,.compare-panel h2,.help-card h2 { margin:0 0 10px; font-size:25px; line-height:30px; }
+.learn-tile p,.lesson-panel p,.check-card p,.wifi-why p,.password-panel p,.wide-info p,.help-card p { margin:0; font-size:17px; line-height:25px; }
+.tile-email { left:70px; background:#f5ffa6; }.tile-web { left:410px; background:#fff0a4; }.tile-wifi { left:750px; background:#dab4fa; }.tile-password { left:1090px; background:#a9e6f4; }
+.small-button { position:absolute; left:24px; bottom:20px; min-width:150px; height:38px; border-radius:18px; background:#062b69; color:#fff; text-decoration:none; display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:700; }
+.learn-how { left:70px; top:466px; width:1330px; height:160px; border-radius:28px; background:#fff; padding:24px; }
+.lesson-panel { border-radius:28px; padding:24px; }.phishing-box { left:70px; top:196px; width:560px; height:165px; background:#9ed8fa; }.warning-signs { left:660px; top:196px; width:736px; height:265px; background:#fff; }
+.warning-signs ul,.wifi-habits ul,.password-left ul { margin:0; padding-left:24px; font-size:17px; line-height:25px; }
+.scam-example,.safe-example-figma,.wifi-tip,.password-tip { position:absolute; border-radius:14px; font-size:17px; line-height:24px; }
+.scam-example { left:70px; top:396px; width:560px; height:82px; background:#fff0f2; color:#8c2630; padding:19px 22px; font-size:18px; font-weight:700; }
+.safe-example-figma { left:70px; top:494px; width:560px; height:82px; background:#edfcf0; color:#176b24; padding:15px 22px; font-weight:600; }
+.lesson-complete,.lesson-next { position:absolute; height:48px; border:0; border-radius:18px; color:#fff; font-size:18px; font-weight:700; display:flex; align-items:center; justify-content:center; text-decoration:none; cursor:pointer; }
+.lesson-complete { background:#3eb34d; width:240px; }.lesson-next { background:#062b69; }
+.complete-pos-one { left:660px; top:496px; }.next-pos-one { left:920px; top:496px; width:230px; }.complete-pos-two { left:70px; top:611px; }.next-pos-two { left:330px; top:611px; width:220px; }
+.complete-message { position:absolute; left:660px; top:552px; margin:0; font-size:15px; font-weight:700; color:#176b24; }.complete-two { left:70px; top:667px; }
+.check-card { top:201px; height:210px; border-radius:28px; padding:24px; }.check-one { left:70px; width:390px; background:#fff0a4; }.check-two { left:500px; width:390px; background:#9ed8fa; }.check-three { left:930px; width:466px; background:#a9e6f4; }
+.compare-panel { left:70px; top:441px; width:1326px; height:145px; background:#fff; border-radius:24px; padding:20px 24px; }.compare-panel h2{font-size:24px}.good-url,.bad-url{position:absolute;top:67px;margin:0;font-size:18px;font-weight:700}.good-url{left:24px;color:#176b24}.bad-url{left:580px;color:#8c2630}
+.wifi-habits { left:70px; top:201px; width:700px; height:330px; background:#dab4fa; border-radius:28px; padding:24px; }.wifi-why { left:810px; top:201px; width:586px; height:210px; background:#fff; border-radius:28px; padding:24px; }.wifi-tip { left:810px; top:436px; width:586px; height:95px; background:#a9e6f4; color:#062b69; padding:23px 28px; font-size:18px; font-weight:700; }.wifi-complete{left:810px;top:561px}.wifi-next{left:1070px;top:561px;width:210px}.wifi-message{left:810px;top:617px}
+.password-panel { top:201px; width:640px; height:285px; border-radius:28px; padding:24px; }.password-left { left:70px; background:#f5ffa6; }.password-right { left:750px; width:646px; background:#9ed8fa; }.password-tip { left:70px; top:516px; width:1326px; height:80px; background:#fff0a4; padding:21px 26px; color:#062b69; font-size:18px; font-weight:600; }.password-complete{left:70px;top:621px}.password-next{left:330px;top:621px;width:240px}.password-message{left:70px;top:677px}
+.rollover-wrap { font-weight:800; text-decoration:underline dotted; position:relative; cursor:help; }.rollover-wrap span { display:none; position:absolute; left:0; top:24px; width:260px; background:#062b69; color:#fff; border-radius:10px; padding:10px; z-index:30; font-weight:400; font-size:15px; line-height:20px; }.rollover-wrap:hover span,.rollover-wrap:focus span{display:block}
+.game-count { position:absolute;left:70px;top:189px;width:180px;height:32px;margin:0;font-size:17px;line-height:24px;font-weight:700 }.game-score { position:absolute;right:106px;top:189px;width:180px;height:32px;margin:0;text-align:right;font-size:17px;line-height:24px;font-weight:700 }.game-progress { position:absolute;left:70px;top:236px;width:1304px;height:13px;display:flex;gap:26px }.game-progress span { width:240px;height:13px;border-radius:7px;background:#d6e3f0 }.game-progress span.done {background:#3eb34d}.game-progress span:first-child{background:#3eb34d}
+.figma-game-card { left:160px; top:281px; width:1176px; height:330px; background:#fff; border-radius:28px; }.game-type{position:absolute;left:40px;top:28px;margin:0;color:#4b6a92;font-size:15px;font-weight:800}.figma-game-card h2{position:absolute;left:40px;top:55px;width:900px;margin:0;font-size:30px;line-height:36px}.game-scenario{position:absolute;left:40px;top:120px;width:1096px;height:70px;border-radius:14px;background:#e9f2fc;padding:17px 22px;font-size:17px;line-height:24px;font-weight:600}.game-answer{position:absolute;top:215px;width:510px;height:80px;border:1px solid #bfd1e5;border-radius:16px;background:#fff;color:#062b69;text-align:left;padding:14px 22px;font-size:17px;line-height:24px;font-weight:600;cursor:pointer}.answer-left{left:40px}.answer-right{left:626px}.game-answer:hover{border-width:3px}.game-feedback{position:absolute;left:40px;top:300px;width:510px;min-height:0;font-size:14px;font-weight:700}.game-teach{position:absolute;left:626px;top:300px;width:510px;min-height:0;font-size:14px}.game-next{display:none;position:absolute;right:160px;top:624px;width:170px;height:44px;border:0;border-radius:16px;background:#062b69;color:#fff;font-size:17px;font-weight:700;cursor:pointer}
+.result-card { left:300px; top:196px; width:896px; height:430px; background:#fff; border-radius:30px; text-align:center; }.result-tick{position:absolute;left:350px;top:20px;width:196px;font-size:66px;line-height:72px;font-weight:700;color:#3eb34d}.result-card h2{position:absolute;left:120px;top:100px;width:656px;margin:0;font-size:38px;line-height:44px}.result-label{position:absolute;left:120px;top:166px;width:656px;margin:0;font-size:18px;font-weight:600}.result-score{position:absolute;left:120px;top:201px;width:656px;font-size:52px;line-height:60px;font-weight:800}.result-practice{position:absolute;left:110px;top:290px;width:676px;margin:0;font-size:17px;line-height:25px}.result-button{position:absolute;top:365px;width:210px;height:48px;border-radius:18px;color:#fff;text-decoration:none;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700}.result-again{left:170px;background:#062b69}.result-home{left:516px;background:#3eb34d}
+.help-card { border-radius:28px; padding:24px; }.help-text{left:70px;top:211px;width:620px;height:190px;background:#fff}.help-listen{left:730px;top:211px;width:666px;height:190px;background:#9ed8fa}.help-phone{left:70px;top:441px;width:620px;height:160px;background:#fff0a4}.help-nav{left:730px;top:441px;width:666px;height:160px;background:#a9e6f4}.help-control{position:absolute;top:124px;height:42px;border:0;border-radius:18px;background:#062b69;color:#fff;font-size:18px;font-weight:700;cursor:pointer}.control-large{left:24px;width:150px}.control-small{left:190px;width:150px}.control-reset{left:356px;width:120px}
+@media(max-width:1496px){body{overflow-x:auto}.webpage{margin-left:0}}
+
+/* final layout fixes */
+html, body {
+    width:100%;
+    min-height:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+body {
+    display:block;
+    background:#dfe4ea;
+}
+
+#pageHolder {
+    position:relative;
+    width:100vw;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.webpage {
+    margin:0;
+    transform-origin:top left;
+}
+
+/* slightly larger brand logo while keeping the header height */
+.logo {
+    left:10px;
+    top:4px;
+    width:292px;
+    height:80px;
+}
+
+.logo img {
+    width:282px;
+    height:80px;
+    object-fit:contain;
+    object-position:left center;
+}
+
+/* footer content is laid out in three clean zones so icons and text cannot overlap */
+.footer {
+    display:grid;
+    grid-template-columns:430px 1fr 390px;
+    align-items:center;
+    column-gap:34px;
+    padding:0 54px;
+}
+
+.footer a,
+.footer span {
+    position:static;
+    top:auto;
+    height:auto;
+    line-height:1.15;
+    font-size:22px;
+    white-space:nowrap;
+}
+
+.help-link,
+.support-message,
+.safe-message {
+    left:auto;
+    display:flex;
+    align-items:center;
+    min-width:0;
+}
+
+.support-message {
+    justify-self:center;
+}
+
+.safe-message {
+    justify-self:end;
+}
+
+.footer-line {
+    display:none;
+}
+
+.footer-icon {
+    position:static !important;
+    display:inline-flex !important;
+    align-items:center;
+    justify-content:center;
+    margin-right:12px;
+    min-width:32px;
+    font-size:27px !important;
+}
+
+/* keep the lesson card icons centred inside the coloured top area */
+.card-icon {
+    left:50% !important;
+    top:12px !important;
+    width:112px !important;
+    height:72px !important;
+    transform:translateX(-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card-icon img {
+    display:block;
+    width:100%;
+    height:100%;
+    max-width:112px;
+    max-height:72px;
+    object-fit:contain;
+    object-position:center center;
+}
+
+/* glossary definitions are hidden unless the pointer/focus is on that exact button */
+.glossary-card .rollover {
+    display:none !important;
+    position:absolute;
+    left:22px;
+    right:22px;
+    top:70px;
+    min-height:92px;
+    padding:14px 16px;
+    border-radius:14px;
+    background:#ffffff;
+    color:#062b69;
+    box-shadow:0 5px 18px rgba(6,43,105,0.16);
+    font-size:16px;
+    line-height:22px;
+    z-index:10;
+    pointer-events:none;
+}
+
+.glossary-card:hover .rollover,
+.glossary-card.open .rollover {
+    display:none !important;
+}
+
+.glossary-card .meaning-button:hover + .rollover,
+.glossary-card .meaning-button:focus + .rollover,
+.glossary-card .meaning-button:focus-visible + .rollover {
+    display:block !important;
+}
+
+.glossary-card .meaning-button {
+    z-index:12;
+}
+
+/* expanded Escape the Scam test */
+.game-progress {
+    display:grid !important;
+    grid-template-columns:repeat(10, 1fr) !important;
+    gap:8px !important;
+    left:70px !important;
+    width:1320px !important;
+}
+
+.game-progress span {
+    width:auto !important;
+}
+
+.figma-game-card {
+    left:140px !important;
+    top:294px !important;
+    width:1216px !important;
+    height:345px !important;
+}
+
+.figma-game-card h2 {
+    width:1070px !important;
+    font-size:27px !important;
+}
+
+.game-scenario {
+    width:1136px !important;
+    min-height:64px !important;
+    height:auto !important;
+}
+
+.game-answer {
+    top:205px !important;
+    width:530px !important;
+    height:78px !important;
+    transition:0.15s ease;
+}
+
+.answer-left {
+    left:40px !important;
+}
+
+.answer-right {
+    left:646px !important;
+}
+
+.game-answer.selected {
+    border:4px solid #062b69 !important;
+    background:#e9f2fc !important;
+}
+
+.game-answer.correct-choice {
+    border:4px solid #2c9f3c !important;
+    background:#e7f8ea !important;
+}
+
+.game-answer.wrong-choice {
+    border:4px solid #cf3546 !important;
+    background:#fff0f2 !important;
+}
+
+.short-answer {
+    display:none;
+    position:absolute;
+    left:40px;
+    top:198px;
+    width:1136px;
+    height:88px;
+    resize:none;
+    border:3px solid #bfd1e5;
+    border-radius:16px;
+    padding:17px 20px;
+    color:#062b69;
+    background:#fff;
+    font-family:Inter,Arial,sans-serif;
+    font-size:18px;
+    line-height:25px;
+}
+
+.short-answer:focus {
+    outline:4px solid #9ed8fa;
+}
+
+.game-feedback {
+    left:40px !important;
+    top:294px !important;
+    width:520px !important;
+    min-height:38px !important;
+    padding:8px 12px;
+    border-radius:10px;
+    font-size:16px !important;
+    line-height:22px;
+}
+
+.game-feedback.visible.correct {
+    background:#dff6e4;
+    border:2px solid #2c9f3c;
+    color:#176b24;
+    font-weight:900;
+}
+
+.game-feedback.visible.incorrect {
+    background:#ffe7ea;
+    border:2px solid #cf3546;
+    color:#8c2630;
+    font-weight:900;
+}
+
+.game-teach {
+    left:590px !important;
+    top:294px !important;
+    width:586px !important;
+    min-height:38px !important;
+    padding:8px 12px;
+    border-radius:10px;
+    background:#fff7cf;
+    font-size:15px !important;
+    line-height:21px;
+}
+
+.check-answer,
+.game-next {
+    position:absolute;
+    top:650px !important;
+    height:46px;
+    border:0;
+    border-radius:17px;
+    color:#fff;
+    font-size:18px;
+    font-weight:800;
+    cursor:pointer;
+}
+
+.check-answer {
+    right:350px;
+    width:190px;
+    background:#3eb34d;
+}
+
+.game-next {
+    right:140px !important;
+    width:190px !important;
+    background:#062b69;
+}
+
+.check-answer:hover,
+.game-next:hover {
+    filter:brightness(1.08);
+}
+
+.larger-text {
+    font-size:108%;
+}
+
+.smaller-text {
+    font-size:94%;
+}
+
+
+/* FINAL GLOSSARY ROLLOVER BEHAVIOUR
+   The definition can ONLY appear while the exact View meaning button is hovered
+   or keyboard-focused. Hovering anywhere else on the card does nothing. */
+.glossary-card .rollover {
+    display:block !important;
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(6px);
+    transition:opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+    pointer-events:none;
+}
+
+.glossary-card:hover .rollover,
+.glossary-card.open .rollover {
+    opacity:0 !important;
+    visibility:hidden !important;
+}
+
+.glossary-card .meaning-button:hover + .rollover,
+.glossary-card .meaning-button:focus + .rollover,
+.glossary-card .meaning-button:focus-visible + .rollover {
+    opacity:1 !important;
+    visibility:visible !important;
+    transform:translateY(0);
+}
+
+.meaning-button {
+    transition:transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.meaning-button:hover,
+.meaning-button:focus-visible {
+    transform:translateY(-2px);
+    box-shadow:0 5px 12px rgba(6,43,105,0.22);
+    outline:3px solid rgba(158,216,250,0.9);
+    outline-offset:2px;
+}
+
+/* Keep the safe-website lock/image perfectly centred within its icon area. */
+.website-card .card-icon {
+    left:50% !important;
+    transform:translateX(-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.website-card .card-icon img {
+    display:block;
+    margin:auto;
+    object-fit:contain;
+    object-position:center center;
+}
+
+
+/* ================================================================
+   FINAL VS CODE BUILD — lesson practice flow and exact storyboard UI
+   ================================================================ */
+.lesson-flow-strip{position:absolute;left:70px;top:186px;width:1330px;height:90px;border:1px solid #d8e4f2;border-radius:24px;background:#fff;display:flex;align-items:center;justify-content:center;gap:35px;box-shadow:0 5px 18px rgba(5,31,74,.06)}
+.flow-step{width:250px;height:58px;display:grid;grid-template-columns:50px 1fr;grid-template-rows:27px 22px;column-gap:12px;align-items:center}.flow-step span{grid-row:1/3;width:48px;height:48px;border-radius:50%;background:#062b69;color:#fff;display:grid;place-items:center;font-size:20px;font-weight:800}.flow-step strong{font-size:19px}.flow-step small{font-size:14px;color:#4b6a92}.flow-arrow{font-size:31px;font-weight:800}
+.learn-prep-page .prep-tile{top:304px;height:260px}.learn-prep-page .prep-tile h2{margin-top:41px}.prep-icon{position:absolute;left:24px;top:20px;width:44px;height:44px;border-radius:15px;background:#fff;display:grid;place-items:center;font-size:24px}.prep-badge{position:absolute;left:24px;bottom:62px;height:28px;border-radius:14px;background:rgba(255,255,255,.92);padding:0 12px;line-height:28px;font-size:12px;font-weight:800}.learn-prep-page .small-button{bottom:15px;height:38px;font-size:15px}.prepare-for-game{position:absolute;left:70px;top:594px;width:1330px;min-height:75px;border-radius:22px;background:#fff;border:1px solid #d8e4f2;padding:20px 25px;color:#304c71;font-size:16px;line-height:24px}
+
+.interactive-lesson .fp-intro{width:1220px}.lesson-reading-panel{position:absolute;left:70px;top:185px;width:505px;height:420px;border-radius:30px;border:1px solid #d8e4f2;padding:25px 28px;box-shadow:0 6px 20px rgba(5,31,74,.06)}.lesson-email .lesson-reading-panel{background:#f5ffa6}.lesson-web .lesson-reading-panel{background:#fff0a4}.lesson-wifi .lesson-reading-panel{background:#dab4fa}.lesson-password .lesson-reading-panel{background:#9ed8fa}.step-chip{display:inline-block;height:30px;border-radius:12px;background:#062b69;color:#fff;padding:0 13px;line-height:30px;font-size:12px;font-weight:800}.lesson-reading-panel h2{font-size:27px;margin:20px 0 13px}.lesson-reading-panel ul{padding-left:24px;margin:0;font-size:17px;line-height:27px}.lesson-reading-panel li{margin:5px 0}.game-prep-note{position:absolute;left:28px;right:28px;bottom:24px;border-radius:15px;background:rgba(255,255,255,.9);padding:13px 15px;color:#304c71;font-size:14px;line-height:20px}
+.lesson-quiz-panel{position:absolute;left:605px;top:185px;width:791px;height:467px;border-radius:30px;background:#fff;border:1px solid #d8e4f2;padding:20px 23px;box-shadow:0 6px 20px rgba(5,31,74,.06)}.quiz-panel-title{height:56px;position:relative}.quiz-panel-title .step-chip{position:absolute;left:0;top:0}.quiz-panel-title h2{position:absolute;left:123px;top:-1px;margin:0;font-size:24px}.quiz-panel-title p{position:absolute;left:123px;top:30px;margin:0;color:#4b6a92;font-size:13px}.lesson-question{height:127px;border-top:1px solid #d8e4f2;padding-top:10px}.lesson-question h3{margin:0 0 8px;font-size:15px;line-height:19px}.lesson-answer-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.lesson-answer-row button{min-height:43px;border:2px solid #cbd9e8;border-radius:12px;background:#f5f9fe;color:#062b69;padding:6px 8px;text-align:left;font-size:11.5px;line-height:14px;font-weight:650;cursor:pointer}.lesson-answer-row button span{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#fff;margin-right:5px;font-weight:800}.lesson-answer-row button:hover,.lesson-answer-row button:focus{outline:none;border-color:#062b69}.lesson-answer-row button.correct-answer{background:#e4f7e8;border-color:#3eb34d}.lesson-answer-row button.wrong-answer{background:#ffe8ea;border-color:#cf3546}.lesson-answer-row button:disabled{opacity:1;cursor:default}.lesson-feedback{margin:4px 0 0;color:#4b6a92;font-size:11.5px;line-height:16px}.lesson-feedback.correct{color:#176b24;font-weight:800}.lesson-feedback.incorrect{color:#8c2630;font-weight:800}.quiz-complete{left:70px;top:628px}.quiz-complete:disabled{background:#94aa98;cursor:not-allowed}.quiz-next{left:330px;top:628px;width:240px}.quiz-complete-message{left:605px;top:628px;width:620px;min-height:48px;margin:0;padding:12px 16px;border-radius:14px;background:#fff;color:#4b6a92;font-size:14px;line-height:20px}
+
+.game-final-page .fp-intro{width:1260px}.game-count-card,.game-score-card,.game-streak-card{position:absolute;top:181px;height:62px;border:1px solid #d8e4f2;border-radius:18px;background:#fff;padding:10px 18px}.game-count-card{left:70px;width:180px}.game-score-card{left:270px;width:150px}.game-streak-card{left:440px;width:150px}.game-count-card small,.game-score-card small,.game-streak-card small{display:block;color:#4b6a92;font-size:10px;font-weight:800}.game-count-card strong,.game-score-card strong,.game-streak-card strong{display:block;margin-top:4px;font-size:18px}.game-prep-label{position:absolute;left:620px;top:197px;width:750px;color:#4b6a92;font-size:13px;font-weight:800;text-align:right}.game-final-page .game-progress{top:260px!important}.game-final-page .figma-game-card{top:286px!important;height:350px!important}.game-final-page .check-answer,.game-final-page .game-next{top:646px!important}.game-progress span.current{background:#062b69!important}.game-progress span.correct-progress{background:#3eb34d!important}.game-progress span.wrong-progress{background:#cf3546!important}
+
+.enhanced-result-card{top:185px!important;height:465px!important;padding-top:18px}.result-stars{font-size:34px;letter-spacing:4px}.result-band{display:inline-block;margin-top:5px;min-width:300px;height:32px;border-radius:12px;background:#f3ffa2;line-height:32px;font-size:12px;font-weight:800}.enhanced-result-card h2{position:static;margin:14px 0 5px;font-size:30px}.enhanced-result-card .result-label{position:static;margin:0 0 6px}.enhanced-result-card .result-score{position:static;width:250px;height:92px;margin:0 auto;border-radius:26px;background:#062b69;color:#fff;line-height:92px;font-size:39px}.enhanced-result-card .result-practice{position:static;width:630px;margin:12px auto;color:#304c71}.result-topics{display:flex;justify-content:center;gap:10px}.result-topics span{padding:6px 12px;border-radius:13px;background:#eef4fb;font-size:12px;font-weight:700}.enhanced-result-card .result-button{top:auto;bottom:17px}.score-key{position:absolute;width:190px;border-radius:24px;padding:18px;text-align:center}.score-key strong{display:block;font-size:25px}.score-key span{display:block;margin-top:8px;font-size:15px;font-weight:700}.score-key-one{left:70px;top:225px;height:110px;background:#9ed8fa}.score-key-two{left:70px;top:355px;height:100px;background:#f3ffa2}.score-key-three{right:70px;top:225px;height:100px;background:#fff0a4}.score-key-four{right:70px;top:345px;height:110px;background:#ffe8ea}
+
+/* final header polish */
+.game-link{top:20px!important;height:50px!important;white-space:nowrap;font-size:22px!important;}
+.listen-button{font-size:22px!important;}
+.logo img{object-fit:contain!important;object-position:left center!important;}
+
+
+/* Help page text-size controls */
+.help-control:hover,
+.help-control:focus {
+    outline:4px solid #9ed8fa;
+    filter:brightness(1.08);
+}
+
+.text-size-status {
+    position:absolute;
+    left:24px;
+    top:169px;
+    width:440px;
+    margin:0;
+    color:#4b6a92;
+    font-size:14px !important;
+    line-height:18px !important;
+    font-weight:700;
+}
+
+
+/* FINAL HELP PAGE - fuller page layout and working controls */
+.help-text {
+    left:70px !important;
+    top:200px !important;
+    width:620px !important;
+    height:220px !important;
+}
+.help-listen {
+    left:730px !important;
+    top:200px !important;
+    width:666px !important;
+    height:220px !important;
+}
+.help-phone {
+    left:70px !important;
+    top:442px !important;
+    width:620px !important;
+    height:220px !important;
+}
+.help-nav {
+    left:730px !important;
+    top:442px !important;
+    width:666px !important;
+    height:220px !important;
+}
+.help-control {
+    top:122px !important;
+}
+.text-size-status {
+    left:24px !important;
+    top:174px !important;
+    width:520px !important;
+    margin:0 !important;
+    font-size:14px !important;
+    line-height:18px !important;
+    font-weight:700 !important;
+}
+.short-answer {
+    display:none !important;
+}

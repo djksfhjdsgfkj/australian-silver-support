@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Escape the Scam</title>
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+        <div class="webpage">
+            <!-- navigation -->
+            <nav class="navbar">
+                <a class="logo" href="main.html"><img alt="Australian Silver Support" src="static/images/logo.png"></a>
+                <a class="nav-item home-link " href="main.html">Home</a>
+                <a class="nav-item learn-link " href="learn.html">Learn</a>
+                <a class="nav-item glossary-link " href="glossary.html">Glossary</a>
+                <a class="nav-item game-link active" href="escape-the-scam.html">Escape the Scam</a>
+                <a class="nav-item about-link " href="about.html">About Us</a>
+                <button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button">🔊 Listen</button>
+            </nav>
+            <main class="main figma-page game-final-page" id="main">
+                <p class="fp-label">INTERACTIVE CYBER-SAFETY TEST</p>
+                <h1 class="fp-title">Escape the Scam</h1>
+                <p class="fp-intro">This is where the four lessons come together. Work through 10 multiple-choice situations and use the same skills you practised in the lesson questions.</p>
+
+                <div class="game-count-card"><small>QUESTION</small><strong id="questionCount">1 of 10</strong></div>
+                <div class="game-score-card"><small>SCORE</small><strong id="scoreText">0 / 10</strong></div>
+                <div class="game-streak-card"><small>STREAK</small><strong id="streakText">0 ★</strong></div>
+                <div class="game-prep-label">LESSONS → EMAILS • WEBSITES • WI-FI • PASSWORDS</div>
+                <div class="game-progress"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+                <section class="figma-game-card">
+                    <p class="game-type" id="gameType">PHISHING EMAIL</p>
+                    <h2 id="gameQuestion">Your bank sends you an urgent message</h2>
+                    <div class="game-scenario" id="scenario"></div>
+                    <button class="game-answer answer-left" id="answerOne" type="button"></button>
+                    <button class="game-answer answer-right" id="answerTwo" type="button"></button>
+                    <div class="game-feedback" id="feedback">Choose an answer, then press Check answer.</div>
+                    <div class="game-teach" id="teach"></div>
+                </section>
+
+                <button class="check-answer" id="checkButton" type="button">Check answer</button>
+                <button class="game-next" id="nextButton" type="button">Next question →</button>
+            </main>
+            <!-- footer -->
+            <footer class="footer">
+                <a class="help-link" href="help.html"><span class="footer-icon">☎</span>Need help? call 1800 123 456</a>
+                <div class="footer-line"></div>
+                <span class="support-message">We're here to support you</span>
+                <span class="safe-message"><span class="footer-icon">♥</span>Stay safe, stay connected</span>
+            </footer>
+        </div>
+        <script src="static/js/Tung.js"></script>
+    </body>
+</html>

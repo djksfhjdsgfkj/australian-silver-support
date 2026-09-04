@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Using Public Wi-Fi Safely</title>
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+        <div class="webpage">
+            <!-- navigation -->
+            <nav class="navbar">
+                <a class="logo" href="main.html"><img alt="Australian Silver Support" src="static/images/logo.png"></a>
+                <a class="nav-item home-link " href="main.html">Home</a>
+                <a class="nav-item learn-link active" href="learn.html">Learn</a>
+                <a class="nav-item glossary-link " href="glossary.html">Glossary</a>
+                <a class="nav-item game-link " href="escape-the-scam.html">Escape the Scam</a>
+                <a class="nav-item about-link " href="about.html">About Us</a>
+                <button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button">🔊 Listen</button>
+            </nav>
+            <main class="main figma-page interactive-lesson lesson-wifi" id="main">
+                <p class="fp-label">LESSON 3 • READ → 3 QUESTIONS → ESCAPE THE SCAM</p>
+                <h1 class="fp-title">Using Public Wi-Fi Safely</h1>
+                <p class="fp-intro">Public Wi-Fi can be useful, but unfamiliar networks are not the best place for sensitive tasks.</p>
+
+                <section class="lesson-reading-panel">
+                    <div class="step-chip">STEP 1 — READ</div>
+                    <h2>Safer Wi-Fi habits</h2>
+                    <ul><li>Avoid banking on unknown public Wi-Fi.</li><li>Use mobile data for sensitive tasks when possible.</li><li>Do not automatically connect to unfamiliar networks.</li><li>Use a connection you trust for passwords or payments.</li></ul>
+                    <div class="game-prep-note"><strong>Why this matters:</strong> these exact skills are used again in Escape the Scam.</div>
+                </section>
+
+                <section class="lesson-quiz-panel">
+                    <div class="quiz-panel-title"><span class="step-chip">STEP 2 — CHECK</span><h2>3 Quick Questions</h2><p>Get instant feedback before you continue.</p></div>
+                    <article class="lesson-question" id="wifi1">
+                        <h3>1. You need to do online banking at a café. What is safer?</h3>
+                        <div class="lesson-answer-row"><button id="wifi1a" type="button" onclick="checkLessonAnswer('wifi1','a')"><span>A</span>Use the free public Wi-Fi.</button><button id="wifi1b" type="button" onclick="checkLessonAnswer('wifi1','b')"><span>B</span>Use your own mobile data or wait.</button><button id="wifi1c" type="button" onclick="checkLessonAnswer('wifi1','c')"><span>C</span>Use whichever network has the strongest signal.</button></div>
+                        <p class="lesson-feedback" id="wifi1Feedback">Choose one answer.</p>
+                    </article>
+                    <article class="lesson-question" id="wifi2">
+                        <h3>2. What should you avoid on unknown public Wi-Fi?</h3>
+                        <div class="lesson-answer-row"><button id="wifi2a" type="button" onclick="checkLessonAnswer('wifi2','a')"><span>A</span>Reading the news.</button><button id="wifi2b" type="button" onclick="checkLessonAnswer('wifi2','b')"><span>B</span>Sensitive logins and payments.</button><button id="wifi2c" type="button" onclick="checkLessonAnswer('wifi2','c')"><span>C</span>Checking the weather.</button></div>
+                        <p class="lesson-feedback" id="wifi2Feedback">Choose one answer.</p>
+                    </article>
+                    <article class="lesson-question" id="wifi3">
+                        <h3>3. Which habit is safer?</h3>
+                        <div class="lesson-answer-row"><button id="wifi3a" type="button" onclick="checkLessonAnswer('wifi3','a')"><span>A</span>Automatically connect to every network.</button><button id="wifi3b" type="button" onclick="checkLessonAnswer('wifi3','b')"><span>B</span>Use trusted networks only.</button><button id="wifi3c" type="button" onclick="checkLessonAnswer('wifi3','c')"><span>C</span>Ignore the network name.</button></div>
+                        <p class="lesson-feedback" id="wifi3Feedback">Choose one answer.</p>
+                    </article>
+                </section>
+
+                <button class="lesson-complete quiz-complete" id="lessonCompleteButton" onclick="markLessonComplete('wifi')" type="button" disabled>Mark lesson complete</button>
+                <a class="lesson-next quiz-next" href="passwords.html">Next: Passwords</a>
+                <p class="complete-message quiz-complete-message" id="completeMessage">Answer all 3 questions to unlock this button.</p>
+            </main>
+            <!-- footer -->
+            <footer class="footer">
+                <a class="help-link" href="help.html"><span class="footer-icon">☎</span>Need help? call 1800 123 456</a>
+                <div class="footer-line"></div>
+                <span class="support-message">We're here to support you</span>
+                <span class="safe-message"><span class="footer-icon">♥</span>Stay safe, stay connected</span>
+            </footer>
+        </div>
+        <script src="static/js/Tung.js"></script>
+    </body>
+</html>

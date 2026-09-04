@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Complete</title>
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+        <div class="webpage">
+            <!-- navigation -->
+            <nav class="navbar">
+                <a class="logo" href="main.html"><img alt="Australian Silver Support" src="static/images/logo.png"></a>
+                <a class="nav-item home-link " href="main.html">Home</a>
+                <a class="nav-item learn-link " href="learn.html">Learn</a>
+                <a class="nav-item glossary-link " href="glossary.html">Glossary</a>
+                <a class="nav-item game-link active" href="escape-the-scam.html">Escape the Scam</a>
+                <a class="nav-item about-link " href="about.html">About Us</a>
+                <button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button">🔊 Listen</button>
+            </nav>
+            <main class="main figma-page results-final-page" id="main">
+                <p class="fp-label">RESULTS</p>
+                <h1 class="fp-title">Your cyber-safety result</h1>
+                <p class="fp-intro">Your score is a guide, not a judgement. Use it to see what you already know and what is worth practising again.</p>
+                <section class="result-card enhanced-result-card">
+                    <div class="result-stars">★★★</div>
+                    <div class="result-band" id="resultBand">CYBER SAFETY RESULT</div>
+                    <h2 id="resultTitle">Great work!</h2>
+                    <p class="result-label">Your score</p>
+                    <div class="result-score" id="finalScore">0 / 10</div>
+                    <p class="result-practice" id="resultMessage">You completed all 10 situations.</p>
+                    <div class="result-topics"><span>Phishing</span><span>Websites</span><span>Wi-Fi</span><span>Passwords</span></div>
+                    <a class="result-button result-again" href="escape-the-scam.html">Try Again</a>
+                    <a class="result-button result-home" href="learn.html">Review Lessons</a>
+                </section>
+                <aside class="score-key score-key-one"><strong>9–10</strong><span>Excellent</span></aside>
+                <aside class="score-key score-key-two"><strong>7–8</strong><span>Strong</span></aside>
+                <aside class="score-key score-key-three"><strong>5–6</strong><span>Keep learning</span></aside>
+                <aside class="score-key score-key-four"><strong>0–4</strong><span>Review &amp; retry</span></aside>
+            </main>
+            <!-- footer -->
+            <footer class="footer">
+                <a class="help-link" href="help.html"><span class="footer-icon">☎</span>Need help? call 1800 123 456</a>
+                <div class="footer-line"></div>
+                <span class="support-message">We're here to support you</span>
+                <span class="safe-message"><span class="footer-icon">♥</span>Stay safe, stay connected</span>
+            </footer>
+        </div>
+        <script src="static/js/Tung.js"></script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotting Scam Emails</title>
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+        <div class="webpage">
+            <!-- navigation -->
+            <nav class="navbar">
+                <a class="logo" href="main.html"><img alt="Australian Silver Support" src="static/images/logo.png"></a>
+                <a class="nav-item home-link " href="main.html">Home</a>
+                <a class="nav-item learn-link active" href="learn.html">Learn</a>
+                <a class="nav-item glossary-link " href="glossary.html">Glossary</a>
+                <a class="nav-item game-link " href="escape-the-scam.html">Escape the Scam</a>
+                <a class="nav-item about-link " href="about.html">About Us</a>
+                <button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button">🔊 Listen</button>
+            </nav>
+            <main class="main figma-page interactive-lesson lesson-email" id="main">
+                <p class="fp-label">LESSON 1 • READ → 3 QUESTIONS → ESCAPE THE SCAM</p>
+                <h1 class="fp-title">Spotting Scam Emails</h1>
+                <p class="fp-intro">Scam emails can look convincing. Stop and check before you click.</p>
+
+                <section class="lesson-reading-panel">
+                    <div class="step-chip">STEP 1 — READ</div>
+                    <h2>Key tips to remember</h2>
+                    <ul><li>Urgency or fear is a common scam warning sign.</li><li>Do not trust unexpected links or attachments.</li><li>Never give passwords or security codes through an unexpected message.</li><li>Verify the sender using contact details you already trust.</li></ul>
+                    <div class="game-prep-note"><strong>Why this matters:</strong> these exact skills are used again in Escape the Scam.</div>
+                </section>
+
+                <section class="lesson-quiz-panel">
+                    <div class="quiz-panel-title"><span class="step-chip">STEP 2 — CHECK</span><h2>3 Quick Questions</h2><p>Get instant feedback before you continue.</p></div>
+                    <article class="lesson-question" id="email1">
+                        <h3>1. An email says your account closes in 20 minutes. What should you do?</h3>
+                        <div class="lesson-answer-row"><button id="email1a" type="button" onclick="checkLessonAnswer('email1','a')"><span>A</span>Click the link immediately.</button><button id="email1b" type="button" onclick="checkLessonAnswer('email1','b')"><span>B</span>Open the official app or call a trusted number.</button><button id="email1c" type="button" onclick="checkLessonAnswer('email1','c')"><span>C</span>Reply with your password.</button></div>
+                        <p class="lesson-feedback" id="email1Feedback">Choose one answer.</p>
+                    </article>
+                    <article class="lesson-question" id="email2">
+                        <h3>2. Which is a scam warning sign?</h3>
+                        <div class="lesson-answer-row"><button id="email2a" type="button" onclick="checkLessonAnswer('email2','a')"><span>A</span>An unexpected request for a security code.</button><button id="email2b" type="button" onclick="checkLessonAnswer('email2','b')"><span>B</span>A message you expected from a friend.</button><button id="email2c" type="button" onclick="checkLessonAnswer('email2','c')"><span>C</span>A saved bookmark you opened yourself.</button></div>
+                        <p class="lesson-feedback" id="email2Feedback">Choose one answer.</p>
+                    </article>
+                    <article class="lesson-question" id="email3">
+                        <h3>3. What is safest when a sender seems suspicious?</h3>
+                        <div class="lesson-answer-row"><button id="email3a" type="button" onclick="checkLessonAnswer('email3','a')"><span>A</span>Trust the logo because it looks real.</button><button id="email3b" type="button" onclick="checkLessonAnswer('email3','b')"><span>B</span>Check the message using a trusted contact method.</button><button id="email3c" type="button" onclick="checkLessonAnswer('email3','c')"><span>C</span>Send your details to prove who you are.</button></div>
+                        <p class="lesson-feedback" id="email3Feedback">Choose one answer.</p>
+                    </article>
+                </section>
+
+                <button class="lesson-complete quiz-complete" id="lessonCompleteButton" onclick="markLessonComplete('emails')" type="button" disabled>Mark lesson complete</button>
+                <a class="lesson-next quiz-next" href="safe-websites.html">Next: Safe Websites</a>
+                <p class="complete-message quiz-complete-message" id="completeMessage">Answer all 3 questions to unlock this button.</p>
+            </main>
+            <!-- footer -->
+            <footer class="footer">
+                <a class="help-link" href="help.html"><span class="footer-icon">☎</span>Need help? call 1800 123 456</a>
+                <div class="footer-line"></div>
+                <span class="support-message">We're here to support you</span>
+                <span class="safe-message"><span class="footer-icon">♥</span>Stay safe, stay connected</span>
+            </footer>
+        </div>
+        <script src="static/js/Tung.js"></script>
+    </body>
+</html>

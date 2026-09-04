@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Help & Accessibility</title>
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+        <div class="webpage">
+            <!-- navigation -->
+            <nav class="navbar">
+                <a class="logo" href="main.html">
+                    <img alt="Australian Silver Support" src="static/images/logo.png">
+                </a>
+                <a class="nav-item home-link active" href="main.html">Home</a>
+                <a class="nav-item learn-link " href="learn.html">Learn</a>
+                <a class="nav-item glossary-link " href="glossary.html">Glossary</a>
+                <a class="nav-item game-link " href="escape-the-scam.html">Escape the Scam</a>
+                <a class="nav-item about-link " href="about.html">About Us</a>
+                <button class="listen-button" id="listenButton" type="button">🔊 Listen</button>
+            </nav>
+            <main class="main figma-page" id="main">
+                <p class="fp-label">HELP &amp; ACCESSIBILITY</p>
+                <h1 class="fp-title">Make the website easier to use</h1>
+                <p class="fp-intro">These options support older users with different reading and technology needs. Try the text-size buttons below — the page changes immediately.</p>
+
+                <section class="help-card help-text">
+                    <h2>Text size</h2>
+                    <p>Choose the text size that is easiest for you to read.</p>
+                    <button class="help-control control-large" id="largerTextButton" type="button">A+ Larger</button>
+                    <button class="help-control control-small" id="smallerTextButton" type="button">A− Smaller</button>
+                    <button class="help-control control-reset" id="resetTextButton" type="button">Reset</button>
+                </section>
+                <section class="help-card help-listen"><h2>Listen</h2><p>The blue Listen button at the top of every page reads the main page content aloud using your browser.</p></section>
+                <section class="help-card help-phone"><h2>Need help?</h2><p>Call <strong>1800 123 456</strong> for support. The number also appears in the footer on every page.</p></section>
+                <section class="help-card help-nav"><h2>Easy navigation</h2><p>The same top bar appears on every page, and the Australian Silver Support logo always returns to Home.</p></section>
+            </main>
+            <!-- footer -->
+            <footer class="footer">
+                <a class="help-link" href="help.html"><span class="footer-icon">☎</span>Need help? call 1800 123 456</a>
+                <div class="footer-line"></div>
+                <span class="support-message">We're here to support you</span>
+                <span class="safe-message"><span class="footer-icon">♥</span>Stay safe, stay connected</span>
+            </footer>
+        </div>
+        <script src="static/js/Tung.js"></script>
+    </body>
+</html>
