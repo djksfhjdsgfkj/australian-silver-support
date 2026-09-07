@@ -14,15 +14,19 @@ function fitPage() {
         holder.appendChild(page);
     }
 
-    var scale = Math.min(1, window.innerWidth / 1496, window.innerHeight / 850);
-    var sideSpace = (window.innerWidth - (1496 * scale)) / 2;
+    var viewportWidth = document.documentElement.clientWidth;
+    var viewportHeight = document.documentElement.clientHeight;
+    var scale = Math.min(1, viewportWidth / 1496, viewportHeight / 850);
+    var sideSpace = Math.max(0, (viewportWidth - (1496 * scale)) / 2);
+    var topSpace = Math.max(0, (viewportHeight - (850 * scale)) / 2);
 
     page.style.transformOrigin = "top left";
     page.style.transform = "scale(" + scale + ")";
     page.style.marginLeft = sideSpace + "px";
+    page.style.marginTop = topSpace + "px";
 
-    holder.style.width = "100vw";
-    holder.style.height = (850 * scale) + "px";
+    holder.style.width = viewportWidth + "px";
+    holder.style.height = viewportHeight + "px";
 }
 
 fitPage();
