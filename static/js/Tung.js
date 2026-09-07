@@ -36,6 +36,24 @@ function spreadContainer(container, targetWidth) {
     });
 }
 
+function fitHomeHero(page, targetWidth) {
+    var heroLeft = page.querySelector(".hero-left");
+    var heroPhoto = page.querySelector(".hero-photo");
+    var heroShield = page.querySelector(".hero-shield");
+
+    if (heroLeft == null || heroPhoto == null || heroShield == null) {
+        return;
+    }
+
+    var halfWidth = targetWidth / 2;
+
+    heroLeft.style.left = "0px";
+    heroLeft.style.width = halfWidth + "px";
+    heroPhoto.style.left = halfWidth + "px";
+    heroPhoto.style.width = halfWidth + "px";
+    heroShield.style.left = (halfWidth - 120) + "px";
+}
+
 function fitPage() {
     var page = document.getElementsByClassName("webpage")[0];
 
@@ -67,6 +85,7 @@ function fitPage() {
     page.style.marginTop = topSpace + "px";
 
     spreadContainer(page, layoutWidth);
+    fitHomeHero(page, layoutWidth);
 
     holder.style.width = viewportWidth + "px";
     holder.style.height = viewportHeight + "px";

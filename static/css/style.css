@@ -214,40 +214,41 @@ button,input {
     position:absolute;
     left:0;
     top:0;
-    width:652px;
+    width:748px;
     height:387px;
     background:#eee
 }
 
 .hero-photo {
     position:absolute;
-    left:652px;
+    left:748px;
     top:0;
-    width:844px;
+    width:748px;
     height:387px;
     overflow:hidden
 }
 
 .hero-photo>img.hero-man {
-    width:100%;
+    width:110%;
     height:100%;
     object-fit:cover;
-    object-position:center 46%
+    object-position:center 42%
 }
 
 .hero-shield {
     position:absolute;
-    left:531px;
+    left:628px;
     top:105px;
     width:240px;
     height:270px;
     object-fit:contain;
+    mix-blend-mode:multiply;
     z-index:5
 }
 
 .hero-title {
     position:absolute;
-    left:0;
+    left:85px;
     top:18px;
     width:579px;
     height:130px;
@@ -259,7 +260,7 @@ button,input {
 
 .hero-text {
     position:absolute;
-    left:48px;
+    left:171px;
     top:176px;
     width:406px;
     font-size:24px;
@@ -269,7 +270,7 @@ button,input {
 
 .start-button {
     position:absolute;
-    left:50px;
+    left:224px;
     top:297px;
     width:300px;
     height:68px;
