@@ -1,0 +1,3121 @@
+﻿<html><head><meta charset="utf-8"><title>Australian Silver Support - Complete Project Code</title><style>body{font-family:Calibri,Arial,sans-serif}h1{text-align:center;color:#062b69}h2{page-break-before:always;color:#062b69;border-bottom:2px solid #062b69}h3{color:#4b6a92}pre{font-family:Consolas,"Courier New",monospace;font-size:9pt;white-space:pre-wrap;background:#f4f6f8;border:1px solid #d8e4f2;padding:8px}</style></head><body><h1>Australian Silver Support - Complete Project Code</h1><p>All project source code grouped by HTML, CSS, and JavaScript.</p>
+<h2>HTML</h2>
+<h3>about.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"/&gt;
+        &lt;meta content="width=device-width,initial-scale=1" name="viewport"/&gt;
+        &lt;title&gt;
+            About Us
+        &lt;/title&gt;
+        &lt;link href="static/css/style.css" rel="stylesheet"/&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;
+                    &lt;img alt="Australian Silver Support" src="static/images/logo.png"/&gt;
+                &lt;/a&gt;
+                &lt;a class="nav-item home-link" href="main.html"&gt;
+                    Home
+                &lt;/a&gt;
+                &lt;a class="nav-item learn-link" href="learn.html"&gt;
+                    Learn
+                &lt;/a&gt;
+                &lt;a class="nav-item glossary-link" href="glossary.html"&gt;
+                    Glossary
+                &lt;/a&gt;
+                &lt;a class="nav-item game-link" href="escape-the-scam.html"&gt;
+                    Escape the Scam
+                &lt;/a&gt;
+                &lt;a class="nav-item about-link active" href="about.html"&gt;
+                    About Us
+                &lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;
+                    ðŸ”Š Listen
+                &lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;!-- page content --&gt;
+            &lt;main class="main" id="main"&gt;
+                &lt;div class="about-label"&gt;
+                    WHO WE ARE
+                &lt;/div&gt;
+                &lt;h1 class="about-title"&gt;
+                    About Australian
+                    &lt;br/&gt;
+                    Silver Support
+                &lt;/h1&gt;
+                &lt;p class="about-intro"&gt;
+                    Helping older Australians feel confident, connected and safe online.
+                &lt;/p&gt;
+                &lt;aside class="mission"&gt;
+                    &lt;p class="mission-label"&gt;
+                        OUR MISSION
+                    &lt;/p&gt;
+                    &lt;h2&gt;
+                        Technology should feel
+                        &lt;br/&gt;
+                        helpful â€” not overwhelming.
+                    &lt;/h2&gt;
+                    &lt;p&gt;
+                        We make cyber safety easier to understand with simple, practical guidance that supports confident everyday use of email, websites, banking and online services.
+                    &lt;/p&gt;
+                &lt;/aside&gt;
+                &lt;h2 class="support-title"&gt;
+                    How we support our community
+                &lt;/h2&gt;
+                &lt;p class="support-intro"&gt;
+                    Everything is designed around clarity, confidence and practical help.
+                &lt;/p&gt;
+                &lt;article class="value-card learn-value"&gt;
+                    &lt;h3&gt;
+                        âœ“ Â  Learn with confidence
+                    &lt;/h3&gt;
+                    &lt;p&gt;
+                        Clear explanations and step-by-step guidance make new online skills easier to understand.
+                    &lt;/p&gt;
+                &lt;/article&gt;
+                &lt;article class="value-card safe-value"&gt;
+                    &lt;h3&gt;
+                        âŒ Â  Stay safer online
+                    &lt;/h3&gt;
+                    &lt;p&gt;
+                        Practical cyber-safety tips help users recognise scams, unsafe websites and risky Wi-Fi.
+                    &lt;/p&gt;
+                &lt;/article&gt;
+                &lt;article class="value-card help-value"&gt;
+                    &lt;h3&gt;
+                        ? Â  Get clear support
+                    &lt;/h3&gt;
+                    &lt;p&gt;
+                        Large text, simple navigation and accessible design help users find support without confusion.
+                    &lt;/p&gt;
+                &lt;/article&gt;
+                &lt;div class="trust-strip"&gt;
+                    Designed for older Australians Â â€¢Â  Simple language Â â€¢Â  Accessible navigation Â â€¢Â  Practical cyber-safety guidance
+                &lt;/div&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;
+                    &lt;span class="footer-icon"&gt;
+                        â˜Ž
+                    &lt;/span&gt;
+                    Need help? call 1800 123 456
+                &lt;/a&gt;
+                &lt;div class="footer-line"&gt;
+                &lt;/div&gt;
+                &lt;span class="support-message"&gt;
+                    We're here to support you
+                &lt;/span&gt;
+                &lt;span class="safe-message"&gt;
+                    &lt;span class="footer-icon"&gt;
+                        â™¥
+                    &lt;/span&gt;
+                    Stay safe, stay connected
+                &lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>escape-the-scam.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Escape the Scam&lt;/title&gt;
+        &lt;link rel="stylesheet" href="static/css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;&lt;img alt="Australian Silver Support" src="static/images/logo.png"&gt;&lt;/a&gt;
+                &lt;a class="nav-item home-link " href="main.html"&gt;Home&lt;/a&gt;
+                &lt;a class="nav-item learn-link " href="learn.html"&gt;Learn&lt;/a&gt;
+                &lt;a class="nav-item glossary-link " href="glossary.html"&gt;Glossary&lt;/a&gt;
+                &lt;a class="nav-item game-link active" href="escape-the-scam.html"&gt;Escape the Scam&lt;/a&gt;
+                &lt;a class="nav-item about-link " href="about.html"&gt;About Us&lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;ðŸ”Š Listen&lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;main class="main figma-page game-final-page" id="main"&gt;
+                &lt;p class="fp-label"&gt;INTERACTIVE CYBER-SAFETY TEST&lt;/p&gt;
+                &lt;h1 class="fp-title"&gt;Escape the Scam&lt;/h1&gt;
+                &lt;p class="fp-intro"&gt;This is where the four lessons come together. Work through 10 multiple-choice situations and use the same skills you practised in the lesson questions.&lt;/p&gt;
+
+                &lt;div class="game-count-card"&gt;&lt;small&gt;QUESTION&lt;/small&gt;&lt;strong id="questionCount"&gt;1 of 10&lt;/strong&gt;&lt;/div&gt;
+                &lt;div class="game-score-card"&gt;&lt;small&gt;SCORE&lt;/small&gt;&lt;strong id="scoreText"&gt;0 / 10&lt;/strong&gt;&lt;/div&gt;
+                &lt;div class="game-streak-card"&gt;&lt;small&gt;STREAK&lt;/small&gt;&lt;strong id="streakText"&gt;0 â˜…&lt;/strong&gt;&lt;/div&gt;
+                &lt;div class="game-prep-label"&gt;LESSONS â†’ EMAILS â€¢ WEBSITES â€¢ WI-FI â€¢ PASSWORDS&lt;/div&gt;
+                &lt;div class="game-progress"&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
+
+                &lt;section class="figma-game-card"&gt;
+                    &lt;p class="game-type" id="gameType"&gt;PHISHING EMAIL&lt;/p&gt;
+                    &lt;h2 id="gameQuestion"&gt;Your bank sends you an urgent message&lt;/h2&gt;
+                    &lt;div class="game-scenario" id="scenario"&gt;&lt;/div&gt;
+                    &lt;button class="game-answer answer-left" id="answerOne" type="button"&gt;&lt;/button&gt;
+                    &lt;button class="game-answer answer-right" id="answerTwo" type="button"&gt;&lt;/button&gt;
+                    &lt;div class="game-feedback" id="feedback"&gt;Choose an answer, then press Check answer.&lt;/div&gt;
+                    &lt;div class="game-teach" id="teach"&gt;&lt;/div&gt;
+                &lt;/section&gt;
+
+                &lt;button class="check-answer" id="checkButton" type="button"&gt;Check answer&lt;/button&gt;
+                &lt;button class="game-next" id="nextButton" type="button"&gt;Next question â†’&lt;/button&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;&lt;span class="footer-icon"&gt;â˜Ž&lt;/span&gt;Need help? call 1800 123 456&lt;/a&gt;
+                &lt;div class="footer-line"&gt;&lt;/div&gt;
+                &lt;span class="support-message"&gt;We're here to support you&lt;/span&gt;
+                &lt;span class="safe-message"&gt;&lt;span class="footer-icon"&gt;â™¥&lt;/span&gt;Stay safe, stay connected&lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>game-complete.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Game Complete&lt;/title&gt;
+        &lt;link rel="stylesheet" href="static/css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;&lt;img alt="Australian Silver Support" src="static/images/logo.png"&gt;&lt;/a&gt;
+                &lt;a class="nav-item home-link " href="main.html"&gt;Home&lt;/a&gt;
+                &lt;a class="nav-item learn-link " href="learn.html"&gt;Learn&lt;/a&gt;
+                &lt;a class="nav-item glossary-link " href="glossary.html"&gt;Glossary&lt;/a&gt;
+                &lt;a class="nav-item game-link active" href="escape-the-scam.html"&gt;Escape the Scam&lt;/a&gt;
+                &lt;a class="nav-item about-link " href="about.html"&gt;About Us&lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;ðŸ”Š Listen&lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;main class="main figma-page results-final-page" id="main"&gt;
+                &lt;p class="fp-label"&gt;RESULTS&lt;/p&gt;
+                &lt;h1 class="fp-title"&gt;Your cyber-safety result&lt;/h1&gt;
+                &lt;p class="fp-intro"&gt;Your score is a guide, not a judgement. Use it to see what you already know and what is worth practising again.&lt;/p&gt;
+                &lt;section class="result-card enhanced-result-card"&gt;
+                    &lt;div class="result-stars"&gt;â˜…â˜…â˜…&lt;/div&gt;
+                    &lt;div class="result-band" id="resultBand"&gt;CYBER SAFETY RESULT&lt;/div&gt;
+                    &lt;h2 id="resultTitle"&gt;Great work!&lt;/h2&gt;
+                    &lt;p class="result-label"&gt;Your score&lt;/p&gt;
+                    &lt;div class="result-score" id="finalScore"&gt;0 / 10&lt;/div&gt;
+                    &lt;p class="result-practice" id="resultMessage"&gt;You completed all 10 situations.&lt;/p&gt;
+                    &lt;div class="result-topics"&gt;&lt;span&gt;Phishing&lt;/span&gt;&lt;span&gt;Websites&lt;/span&gt;&lt;span&gt;Wi-Fi&lt;/span&gt;&lt;span&gt;Passwords&lt;/span&gt;&lt;/div&gt;
+                    &lt;a class="result-button result-again" href="escape-the-scam.html"&gt;Try Again&lt;/a&gt;
+                    &lt;a class="result-button result-home" href="learn.html"&gt;Review Lessons&lt;/a&gt;
+                &lt;/section&gt;
+                &lt;aside class="score-key score-key-one"&gt;&lt;strong&gt;9â€“10&lt;/strong&gt;&lt;span&gt;Excellent&lt;/span&gt;&lt;/aside&gt;
+                &lt;aside class="score-key score-key-two"&gt;&lt;strong&gt;7â€“8&lt;/strong&gt;&lt;span&gt;Strong&lt;/span&gt;&lt;/aside&gt;
+                &lt;aside class="score-key score-key-three"&gt;&lt;strong&gt;5â€“6&lt;/strong&gt;&lt;span&gt;Keep learning&lt;/span&gt;&lt;/aside&gt;
+                &lt;aside class="score-key score-key-four"&gt;&lt;strong&gt;0â€“4&lt;/strong&gt;&lt;span&gt;Review &amp;amp; retry&lt;/span&gt;&lt;/aside&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;&lt;span class="footer-icon"&gt;â˜Ž&lt;/span&gt;Need help? call 1800 123 456&lt;/a&gt;
+                &lt;div class="footer-line"&gt;&lt;/div&gt;
+                &lt;span class="support-message"&gt;We're here to support you&lt;/span&gt;
+                &lt;span class="safe-message"&gt;&lt;span class="footer-icon"&gt;â™¥&lt;/span&gt;Stay safe, stay connected&lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>glossary.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"/&gt;
+        &lt;meta content="width=device-width,initial-scale=1" name="viewport"/&gt;
+        &lt;title&gt;
+            Glossary
+        &lt;/title&gt;
+        &lt;link href="static/css/style.css" rel="stylesheet"/&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;
+                    &lt;img alt="Australian Silver Support" src="static/images/logo.png"/&gt;
+                &lt;/a&gt;
+                &lt;a class="nav-item home-link" href="main.html"&gt;
+                    Home
+                &lt;/a&gt;
+                &lt;a class="nav-item learn-link" href="learn.html"&gt;
+                    Learn
+                &lt;/a&gt;
+                &lt;a class="nav-item glossary-link active" href="glossary.html"&gt;
+                    Glossary
+                &lt;/a&gt;
+                &lt;a class="nav-item game-link" href="escape-the-scam.html"&gt;
+                    Escape the Scam
+                &lt;/a&gt;
+                &lt;a class="nav-item about-link" href="about.html"&gt;
+                    About Us
+                &lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;
+                    ðŸ”Š Listen
+                &lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;!-- page content --&gt;
+            &lt;main class="main" id="main"&gt;
+                &lt;div class="glossary-label"&gt;
+                    CYBER-SAFETY TERMS
+                &lt;/div&gt;
+                &lt;h1 class="glossary-title"&gt;
+                    Cyber Safety Glossary
+                &lt;/h1&gt;
+                &lt;div class="glossary-intro"&gt;
+                    Hover directly over a View meaning button to reveal only that termâ€™s definition. Hovering the card itself does nothing.
+                &lt;/div&gt;
+                &lt;aside class="glossary-help"&gt;
+                    &lt;div class="info-icon"&gt;
+                        i
+                    &lt;/div&gt;
+                    &lt;h3&gt;
+                        How to use this page
+                    &lt;/h3&gt;
+                    &lt;p&gt;
+                        Move your mouse over a View meaning button to see only that termâ€™s definition.
+                        &lt;br/&gt;
+                        Keep explanations short and easy to read.
+                    &lt;/p&gt;
+                &lt;/aside&gt;
+                &lt;article class="glossary-card phishing-card"&gt;
+                    &lt;h2&gt;
+                        ! Â  Phishing
+                    &lt;/h2&gt;
+
+                    &lt;button class="meaning-button" type="button" tabindex="0"&gt;
+                        View meaning
+                    &lt;/button&gt;
+                    &lt;div class="rollover"&gt;A fake email or message designed to trick you into giving away personal information. Phishing often uses urgency, threats or fake links.&lt;/div&gt;
+                &lt;/article&gt;
+                &lt;article class="glossary-card https-card"&gt;
+                    &lt;h2&gt;
+                        ðŸ”’ Â  HTTPS
+                    &lt;/h2&gt;
+
+                    &lt;button class="meaning-button" type="button" tabindex="0"&gt;
+                        View meaning
+                    &lt;/button&gt;
+                    &lt;div class="rollover"&gt;A secure website connection that helps protect information you send online. HTTPS protects data travelling between your browser and the website, but it does not prove the website is genuine.&lt;/div&gt;
+                &lt;/article&gt;
+                &lt;article class="glossary-card malware-card"&gt;
+                    &lt;h2&gt;
+                        âš  Â  Malware
+                    &lt;/h2&gt;
+
+                    &lt;button class="meaning-button" type="button" tabindex="0"&gt;
+                        View meaning
+                    &lt;/button&gt;
+                    &lt;div class="rollover"&gt;Harmful software that can damage a device or steal information. Avoid unexpected downloads and keep software updated.&lt;/div&gt;
+                &lt;/article&gt;
+                &lt;article class="glossary-card password-card"&gt;
+                    &lt;h2&gt;
+                        â˜… Â  Strong Password
+                    &lt;/h2&gt;
+
+                    &lt;button class="meaning-button" type="button" tabindex="0"&gt;
+                        View meaning
+                    &lt;/button&gt;
+                    &lt;div class="rollover"&gt;A long, unique password that is difficult for another person to guess. Use different passwords for important accounts.&lt;/div&gt;
+                &lt;/article&gt;
+                &lt;article class="glossary-card two-factor-card"&gt;
+                    &lt;h2&gt;
+                        2 Â  Two-Factor Authentication
+                    &lt;/h2&gt;
+
+                    &lt;button class="meaning-button" type="button" tabindex="0"&gt;
+                        View meaning
+                    &lt;/button&gt;
+                    &lt;div class="rollover"&gt;An extra security step that asks for a second proof of identity when signing in. A code sent to a trusted device is one common second factor.&lt;/div&gt;
+                &lt;/article&gt;
+                &lt;article class="glossary-card public-wifi-card"&gt;
+                    &lt;h2&gt;
+                        âŒ Â  Public Wi-Fi
+                    &lt;/h2&gt;
+
+                    &lt;button class="meaning-button" type="button" tabindex="0"&gt;
+                        View meaning
+                    &lt;/button&gt;
+                    &lt;div class="rollover"&gt;A shared wireless network in public places that may be less secure than your home network. Avoid sensitive banking on unknown public Wi-Fi.&lt;/div&gt;
+                &lt;/article&gt;
+                &lt;div class="glossary-tip"&gt;
+                    Tip: Keep definitions short, use familiar words and avoid unnecessary technical language.
+                &lt;/div&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;
+                    &lt;span class="footer-icon"&gt;
+                        â˜Ž
+                    &lt;/span&gt;
+                    Need help? call 1800 123 456
+                &lt;/a&gt;
+                &lt;div class="footer-line"&gt;
+                &lt;/div&gt;
+                &lt;span class="support-message"&gt;
+                    We're here to support you
+                &lt;/span&gt;
+                &lt;span class="safe-message"&gt;
+                    &lt;span class="footer-icon"&gt;
+                        â™¥
+                    &lt;/span&gt;
+                    Stay safe, stay connected
+                &lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>help.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Help &amp; Accessibility&lt;/title&gt;
+        &lt;link rel="stylesheet" href="static/css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;
+                    &lt;img alt="Australian Silver Support" src="static/images/logo.png"&gt;
+                &lt;/a&gt;
+                &lt;a class="nav-item home-link active" href="main.html"&gt;Home&lt;/a&gt;
+                &lt;a class="nav-item learn-link " href="learn.html"&gt;Learn&lt;/a&gt;
+                &lt;a class="nav-item glossary-link " href="glossary.html"&gt;Glossary&lt;/a&gt;
+                &lt;a class="nav-item game-link " href="escape-the-scam.html"&gt;Escape the Scam&lt;/a&gt;
+                &lt;a class="nav-item about-link " href="about.html"&gt;About Us&lt;/a&gt;
+                &lt;button class="listen-button" id="listenButton" type="button"&gt;ðŸ”Š Listen&lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;main class="main figma-page" id="main"&gt;
+                &lt;p class="fp-label"&gt;HELP &amp;amp; ACCESSIBILITY&lt;/p&gt;
+                &lt;h1 class="fp-title"&gt;Make the website easier to use&lt;/h1&gt;
+                &lt;p class="fp-intro"&gt;These options support older users with different reading and technology needs. Try the text-size buttons below â€” the page changes immediately.&lt;/p&gt;
+
+                &lt;section class="help-card help-text"&gt;
+                    &lt;h2&gt;Text size&lt;/h2&gt;
+                    &lt;p&gt;Choose the text size that is easiest for you to read.&lt;/p&gt;
+                    &lt;button class="help-control control-large" id="largerTextButton" type="button"&gt;A+ Larger&lt;/button&gt;
+                    &lt;button class="help-control control-small" id="smallerTextButton" type="button"&gt;Aâˆ’ Smaller&lt;/button&gt;
+                    &lt;button class="help-control control-reset" id="resetTextButton" type="button"&gt;Reset&lt;/button&gt;
+                &lt;/section&gt;
+                &lt;section class="help-card help-listen"&gt;&lt;h2&gt;Listen&lt;/h2&gt;&lt;p&gt;The blue Listen button at the top of every page reads the main page content aloud using your browser.&lt;/p&gt;&lt;/section&gt;
+                &lt;section class="help-card help-phone"&gt;&lt;h2&gt;Need help?&lt;/h2&gt;&lt;p&gt;Call &lt;strong&gt;1800 123 456&lt;/strong&gt; for support. The number also appears in the footer on every page.&lt;/p&gt;&lt;/section&gt;
+                &lt;section class="help-card help-nav"&gt;&lt;h2&gt;Easy navigation&lt;/h2&gt;&lt;p&gt;The same top bar appears on every page, and the Australian Silver Support logo always returns to Home.&lt;/p&gt;&lt;/section&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;&lt;span class="footer-icon"&gt;â˜Ž&lt;/span&gt;Need help? call 1800 123 456&lt;/a&gt;
+                &lt;div class="footer-line"&gt;&lt;/div&gt;
+                &lt;span class="support-message"&gt;We're here to support you&lt;/span&gt;
+                &lt;span class="safe-message"&gt;&lt;span class="footer-icon"&gt;â™¥&lt;/span&gt;Stay safe, stay connected&lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>index.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="refresh" content="0; url=main.html"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;title&gt;Australian Silver Support&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Opening Australian Silver Support...&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>learn.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Learn&lt;/title&gt;
+        &lt;link rel="stylesheet" href="static/css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;&lt;img alt="Australian Silver Support" src="static/images/logo.png"&gt;&lt;/a&gt;
+                &lt;a class="nav-item home-link " href="main.html"&gt;Home&lt;/a&gt;
+                &lt;a class="nav-item learn-link active" href="learn.html"&gt;Learn&lt;/a&gt;
+                &lt;a class="nav-item glossary-link " href="glossary.html"&gt;Glossary&lt;/a&gt;
+                &lt;a class="nav-item game-link " href="escape-the-scam.html"&gt;Escape the Scam&lt;/a&gt;
+                &lt;a class="nav-item about-link " href="about.html"&gt;About Us&lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;ðŸ”Š Listen&lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;main class="main figma-page learn-prep-page" id="main"&gt;
+                &lt;p class="fp-label"&gt;LEARN â†’ CHECK â†’ PLAY&lt;/p&gt;
+                &lt;h1 class="fp-title"&gt;Learn to stay safer online&lt;/h1&gt;
+                &lt;p class="fp-intro"&gt;Each lesson is short on purpose: read the key safety tips, answer 3 multiple-choice questions, then use those skills in Escape the Scam.&lt;/p&gt;
+
+                &lt;section class="lesson-flow-strip"&gt;
+                    &lt;div class="flow-step"&gt;&lt;span&gt;1&lt;/span&gt;&lt;strong&gt;READ&lt;/strong&gt;&lt;small&gt;Key safety tips&lt;/small&gt;&lt;/div&gt;
+                    &lt;div class="flow-arrow"&gt;â†’&lt;/div&gt;
+                    &lt;div class="flow-step"&gt;&lt;span&gt;2&lt;/span&gt;&lt;strong&gt;CHECK&lt;/strong&gt;&lt;small&gt;3 quick questions&lt;/small&gt;&lt;/div&gt;
+                    &lt;div class="flow-arrow"&gt;â†’&lt;/div&gt;
+                    &lt;div class="flow-step"&gt;&lt;span&gt;3&lt;/span&gt;&lt;strong&gt;PLAY&lt;/strong&gt;&lt;small&gt;Escape the Scam&lt;/small&gt;&lt;/div&gt;
+                &lt;/section&gt;
+
+                &lt;article class="learn-tile tile-email prep-tile"&gt;&lt;div class="prep-icon"&gt;âœ‰ï¸&lt;/div&gt;&lt;h2&gt;Scam Emails&lt;/h2&gt;&lt;p&gt;Learn the warning signs, then answer 3 questions.&lt;/p&gt;&lt;div class="prep-badge"&gt;3 QUESTIONS&lt;/div&gt;&lt;a class="small-button" href="scam-emails.html"&gt;Start lesson&lt;/a&gt;&lt;/article&gt;
+                &lt;article class="learn-tile tile-web prep-tile"&gt;&lt;div class="prep-icon"&gt;ðŸ”’&lt;/div&gt;&lt;h2&gt;Safe Websites&lt;/h2&gt;&lt;p&gt;Learn what to check, then answer 3 questions.&lt;/p&gt;&lt;div class="prep-badge"&gt;3 QUESTIONS&lt;/div&gt;&lt;a class="small-button" href="safe-websites.html"&gt;Start lesson&lt;/a&gt;&lt;/article&gt;
+                &lt;article class="learn-tile tile-wifi prep-tile"&gt;&lt;div class="prep-icon"&gt;âŒ&lt;/div&gt;&lt;h2&gt;Wi-Fi Safety&lt;/h2&gt;&lt;p&gt;Learn safer connection habits, then answer 3 questions.&lt;/p&gt;&lt;div class="prep-badge"&gt;3 QUESTIONS&lt;/div&gt;&lt;a class="small-button" href="wifi-safety.html"&gt;Start lesson&lt;/a&gt;&lt;/article&gt;
+                &lt;article class="learn-tile tile-password prep-tile"&gt;&lt;div class="prep-icon"&gt;â—&lt;/div&gt;&lt;h2&gt;Passwords &amp;amp; 2FA&lt;/h2&gt;&lt;p&gt;Learn stronger account habits, then answer 3 questions.&lt;/p&gt;&lt;div class="prep-badge"&gt;3 QUESTIONS&lt;/div&gt;&lt;a class="small-button" href="passwords.html"&gt;Start lesson&lt;/a&gt;&lt;/article&gt;
+
+                &lt;section class="prepare-for-game"&gt;&lt;strong&gt;These lessons prepare you for Escape the Scam.&lt;/strong&gt; The final game mixes phishing emails, fake websites, unsafe Wi-Fi and account-security situations.&lt;/section&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;&lt;span class="footer-icon"&gt;â˜Ž&lt;/span&gt;Need help? call 1800 123 456&lt;/a&gt;
+                &lt;div class="footer-line"&gt;&lt;/div&gt;
+                &lt;span class="support-message"&gt;We're here to support you&lt;/span&gt;
+                &lt;span class="safe-message"&gt;&lt;span class="footer-icon"&gt;â™¥&lt;/span&gt;Stay safe, stay connected&lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>main.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"/&gt;
+        &lt;meta content="width=device-width,initial-scale=1" name="viewport"/&gt;
+        &lt;title&gt;
+            Home
+        &lt;/title&gt;
+        &lt;link href="static/css/style.css" rel="stylesheet"/&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;
+                    &lt;img alt="Australian Silver Support" src="static/images/logo.png"/&gt;
+                &lt;/a&gt;
+                &lt;a class="nav-item home-link active" href="main.html"&gt;
+                    Home
+                &lt;/a&gt;
+                &lt;a class="nav-item learn-link" href="learn.html"&gt;
+                    Learn
+                &lt;/a&gt;
+                &lt;a class="nav-item glossary-link" href="glossary.html"&gt;
+                    Glossary
+                &lt;/a&gt;
+                &lt;a class="nav-item game-link" href="escape-the-scam.html"&gt;
+                    Escape the Scam
+                &lt;/a&gt;
+                &lt;a class="nav-item about-link" href="about.html"&gt;
+                    About Us
+                &lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;
+                    ðŸ”Š Listen
+                &lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;!-- page content --&gt;
+            &lt;main class="main" id="main"&gt;
+                &lt;div class="hero-left"&gt;
+                &lt;/div&gt;
+                &lt;div class="hero-photo"&gt;
+                    &lt;img alt="Older Australian man using a laptop" class="hero-man" src="static/images/hero-man.png"/&gt;
+                &lt;/div&gt;
+                &lt;img alt="Your safety is our priority" class="hero-shield" src="static/images/shield.png"/&gt;
+                &lt;div class="hero-title"&gt;
+                    Learn to stay safe
+                    &lt;br/&gt;
+                    online
+                &lt;/div&gt;
+                &lt;div class="hero-text"&gt;
+                    Simple tips and fun activities
+                    &lt;br/&gt;
+                    to help you use the internet
+                    &lt;br/&gt;
+                    safely and with confidence
+                &lt;/div&gt;
+                &lt;a class="start-button" href="learn.html"&gt;
+                    &lt;span class="start-arrow"&gt;
+                        âžœ
+                    &lt;/span&gt;
+                    Start Learning
+                &lt;/a&gt;
+                &lt;div class="learn-background"&gt;
+                &lt;/div&gt;
+                &lt;div class="learn-heading"&gt;
+                    What would you like to learn today?
+                &lt;/div&gt;
+                &lt;div class="learn-card scam-card"&gt;
+                    &lt;div class="card-icon mail-icon"&gt;
+                        âœ‰ï¸
+                    &lt;/div&gt;
+                    Learn how to spot
+                    &lt;br/&gt;
+                    dangerous emails and
+                    &lt;br/&gt;
+                    messages
+                    &lt;a aria-label="Open scam emails page" class="card-next" href="scam-emails.html"&gt;
+                        â€º
+                    &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="learn-card website-card"&gt;
+                    &lt;div class="card-icon"&gt;
+                        &lt;img alt="" src="static/images/safe-website.png"/&gt;
+                    &lt;/div&gt;
+                    Find out how to know
+                    &lt;br/&gt;
+                    if a website is safe to
+                    &lt;br/&gt;
+                    use
+                    &lt;a aria-label="Open safe websites page" class="card-next" href="safe-websites.html"&gt;
+                        â€º
+                    &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="learn-card wifi-card"&gt;
+                    &lt;div class="card-icon"&gt;
+                        &lt;img alt="" src="static/images/wifi.png"/&gt;
+                    &lt;/div&gt;
+                    Learn how to use
+                    &lt;br/&gt;
+                    public Wi-Fi networks
+                    &lt;br/&gt;
+                    safely
+                    &lt;a aria-label="Open wifi safety page" class="card-next" href="wifi-safety.html"&gt;
+                        â€º
+                    &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="learn-card glossary-card-home"&gt;
+                    &lt;div class="card-icon"&gt;
+                        &lt;img alt="" src="static/images/book.png"/&gt;
+                    &lt;/div&gt;
+                    Click or hover over
+                    &lt;br/&gt;
+                    words to learn what
+                    &lt;br/&gt;
+                    they mean
+                    &lt;a aria-label="Open glossary page" class="card-next" href="glossary.html"&gt;
+                        â€º
+                    &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="learn-card game-card"&gt;
+                    &lt;div class="card-icon"&gt;
+                        &lt;img alt="" src="static/images/gamepad.png"/&gt;
+                    &lt;/div&gt;
+                    Play a fun game and
+                    &lt;br/&gt;
+                    test your cyber safety
+                    &lt;br/&gt;
+                    skills!
+                    &lt;a aria-label="Open escape the scam page" class="card-next" href="escape-the-scam.html"&gt;
+                        â€º
+                    &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;
+                    &lt;span class="footer-icon"&gt;
+                        â˜Ž
+                    &lt;/span&gt;
+                    Need help? call 1800 123 456
+                &lt;/a&gt;
+                &lt;div class="footer-line"&gt;
+                &lt;/div&gt;
+                &lt;span class="support-message"&gt;
+                    We're here to support you
+                &lt;/span&gt;
+                &lt;span class="safe-message"&gt;
+                    &lt;span class="footer-icon"&gt;
+                        â™¥
+                    &lt;/span&gt;
+                    Stay safe, stay connected
+                &lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>passwords.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Passwords &amp; Two-Factor Authentication&lt;/title&gt;
+        &lt;link rel="stylesheet" href="static/css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;&lt;img alt="Australian Silver Support" src="static/images/logo.png"&gt;&lt;/a&gt;
+                &lt;a class="nav-item home-link " href="main.html"&gt;Home&lt;/a&gt;
+                &lt;a class="nav-item learn-link active" href="learn.html"&gt;Learn&lt;/a&gt;
+                &lt;a class="nav-item glossary-link " href="glossary.html"&gt;Glossary&lt;/a&gt;
+                &lt;a class="nav-item game-link " href="escape-the-scam.html"&gt;Escape the Scam&lt;/a&gt;
+                &lt;a class="nav-item about-link " href="about.html"&gt;About Us&lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;ðŸ”Š Listen&lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;main class="main figma-page interactive-lesson lesson-password" id="main"&gt;
+                &lt;p class="fp-label"&gt;LESSON 4 â€¢ READ â†’ 3 QUESTIONS â†’ ESCAPE THE SCAM&lt;/p&gt;
+                &lt;h1 class="fp-title"&gt;Passwords &amp; Two-Factor Authentication&lt;/h1&gt;
+                &lt;p class="fp-intro"&gt;Strong account protection uses a long unique password and, where possible, a second sign-in step.&lt;/p&gt;
+
+                &lt;section class="lesson-reading-panel"&gt;
+                    &lt;div class="step-chip"&gt;STEP 1 â€” READ&lt;/div&gt;
+                    &lt;h2&gt;Stronger account habits&lt;/h2&gt;
+                    &lt;ul&gt;&lt;li&gt;Use a long unique password or passphrase.&lt;/li&gt;&lt;li&gt;Do not reuse important passwords.&lt;/li&gt;&lt;li&gt;Turn on two-factor authentication where possible.&lt;/li&gt;&lt;li&gt;Never read one-time security codes to unexpected callers.&lt;/li&gt;&lt;/ul&gt;
+                    &lt;div class="game-prep-note"&gt;&lt;strong&gt;Why this matters:&lt;/strong&gt; these exact skills are used again in Escape the Scam.&lt;/div&gt;
+                &lt;/section&gt;
+
+                &lt;section class="lesson-quiz-panel"&gt;
+                    &lt;div class="quiz-panel-title"&gt;&lt;span class="step-chip"&gt;STEP 2 â€” CHECK&lt;/span&gt;&lt;h2&gt;3 Quick Questions&lt;/h2&gt;&lt;p&gt;Get instant feedback before you continue.&lt;/p&gt;&lt;/div&gt;
+                    &lt;article class="lesson-question" id="pass1"&gt;
+                        &lt;h3&gt;1. Which password habit is safer?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="pass1a" type="button" onclick="checkLessonAnswer('pass1','a')"&gt;&lt;span&gt;A&lt;/span&gt;Use the same short password everywhere.&lt;/button&gt;&lt;button id="pass1b" type="button" onclick="checkLessonAnswer('pass1','b')"&gt;&lt;span&gt;B&lt;/span&gt;Use a long unique password or passphrase.&lt;/button&gt;&lt;button id="pass1c" type="button" onclick="checkLessonAnswer('pass1','c')"&gt;&lt;span&gt;C&lt;/span&gt;Use your first name.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="pass1Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                    &lt;article class="lesson-question" id="pass2"&gt;
+                        &lt;h3&gt;2. What does two-factor authentication add?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="pass2a" type="button" onclick="checkLessonAnswer('pass2','a')"&gt;&lt;span&gt;A&lt;/span&gt;A second proof of identity.&lt;/button&gt;&lt;button id="pass2b" type="button" onclick="checkLessonAnswer('pass2','b')"&gt;&lt;span&gt;B&lt;/span&gt;A shorter password.&lt;/button&gt;&lt;button id="pass2c" type="button" onclick="checkLessonAnswer('pass2','c')"&gt;&lt;span&gt;C&lt;/span&gt;A public security code.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="pass2Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                    &lt;article class="lesson-question" id="pass3"&gt;
+                        &lt;h3&gt;3. What should you do with a one-time security code?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="pass3a" type="button" onclick="checkLessonAnswer('pass3','a')"&gt;&lt;span&gt;A&lt;/span&gt;Tell an unexpected caller who asks.&lt;/button&gt;&lt;button id="pass3b" type="button" onclick="checkLessonAnswer('pass3','b')"&gt;&lt;span&gt;B&lt;/span&gt;Keep it private.&lt;/button&gt;&lt;button id="pass3c" type="button" onclick="checkLessonAnswer('pass3','c')"&gt;&lt;span&gt;C&lt;/span&gt;Post it in a chat so you do not forget it.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="pass3Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                &lt;/section&gt;
+
+                &lt;button class="lesson-complete quiz-complete" id="lessonCompleteButton" onclick="markLessonComplete('passwords')" type="button" disabled&gt;Mark lesson complete&lt;/button&gt;
+                &lt;a class="lesson-next quiz-next" href="escape-the-scam.html"&gt;Play Escape the Scam&lt;/a&gt;
+                &lt;p class="complete-message quiz-complete-message" id="completeMessage"&gt;Answer all 3 questions to unlock this button.&lt;/p&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;&lt;span class="footer-icon"&gt;â˜Ž&lt;/span&gt;Need help? call 1800 123 456&lt;/a&gt;
+                &lt;div class="footer-line"&gt;&lt;/div&gt;
+                &lt;span class="support-message"&gt;We're here to support you&lt;/span&gt;
+                &lt;span class="safe-message"&gt;&lt;span class="footer-icon"&gt;â™¥&lt;/span&gt;Stay safe, stay connected&lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>safe-websites.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Checking Safe Websites&lt;/title&gt;
+        &lt;link rel="stylesheet" href="static/css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;&lt;img alt="Australian Silver Support" src="static/images/logo.png"&gt;&lt;/a&gt;
+                &lt;a class="nav-item home-link " href="main.html"&gt;Home&lt;/a&gt;
+                &lt;a class="nav-item learn-link active" href="learn.html"&gt;Learn&lt;/a&gt;
+                &lt;a class="nav-item glossary-link " href="glossary.html"&gt;Glossary&lt;/a&gt;
+                &lt;a class="nav-item game-link " href="escape-the-scam.html"&gt;Escape the Scam&lt;/a&gt;
+                &lt;a class="nav-item about-link " href="about.html"&gt;About Us&lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;ðŸ”Š Listen&lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;main class="main figma-page interactive-lesson lesson-web" id="main"&gt;
+                &lt;p class="fp-label"&gt;LESSON 2 â€¢ READ â†’ 3 QUESTIONS â†’ ESCAPE THE SCAM&lt;/p&gt;
+                &lt;h1 class="fp-title"&gt;Checking Safe Websites&lt;/h1&gt;
+                &lt;p class="fp-intro"&gt;A website can look professional and still be fake. Check the address before entering information.&lt;/p&gt;
+
+                &lt;section class="lesson-reading-panel"&gt;
+                    &lt;div class="step-chip"&gt;STEP 1 â€” READ&lt;/div&gt;
+                    &lt;h2&gt;What to check&lt;/h2&gt;
+                    &lt;ul&gt;&lt;li&gt;Read the full website address carefully.&lt;/li&gt;&lt;li&gt;Look for misspellings, extra words or unusual endings.&lt;/li&gt;&lt;li&gt;HTTPS protects the connection, but does not prove the site is genuine.&lt;/li&gt;&lt;li&gt;Use official apps, bookmarks or trusted links.&lt;/li&gt;&lt;/ul&gt;
+                    &lt;div class="game-prep-note"&gt;&lt;strong&gt;Why this matters:&lt;/strong&gt; these exact skills are used again in Escape the Scam.&lt;/div&gt;
+                &lt;/section&gt;
+
+                &lt;section class="lesson-quiz-panel"&gt;
+                    &lt;div class="quiz-panel-title"&gt;&lt;span class="step-chip"&gt;STEP 2 â€” CHECK&lt;/span&gt;&lt;h2&gt;3 Quick Questions&lt;/h2&gt;&lt;p&gt;Get instant feedback before you continue.&lt;/p&gt;&lt;/div&gt;
+                    &lt;article class="lesson-question" id="web1"&gt;
+                        &lt;h3&gt;1. Which website clue matters most?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="web1a" type="button" onclick="checkLessonAnswer('web1','a')"&gt;&lt;span&gt;A&lt;/span&gt;A fancy design.&lt;/button&gt;&lt;button id="web1b" type="button" onclick="checkLessonAnswer('web1','b')"&gt;&lt;span&gt;B&lt;/span&gt;The correct full website address.&lt;/button&gt;&lt;button id="web1c" type="button" onclick="checkLessonAnswer('web1','c')"&gt;&lt;span&gt;C&lt;/span&gt;A large familiar logo.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="web1Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                    &lt;article class="lesson-question" id="web2"&gt;
+                        &lt;h3&gt;2. What does HTTPS tell you?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="web2a" type="button" onclick="checkLessonAnswer('web2','a')"&gt;&lt;span&gt;A&lt;/span&gt;The connection is protected.&lt;/button&gt;&lt;button id="web2b" type="button" onclick="checkLessonAnswer('web2','b')"&gt;&lt;span&gt;B&lt;/span&gt;The website is definitely genuine.&lt;/button&gt;&lt;button id="web2c" type="button" onclick="checkLessonAnswer('web2','c')"&gt;&lt;span&gt;C&lt;/span&gt;The page can never be fake.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="web2Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                    &lt;article class="lesson-question" id="web3"&gt;
+                        &lt;h3&gt;3. What is safest for online banking?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="web3a" type="button" onclick="checkLessonAnswer('web3','a')"&gt;&lt;span&gt;A&lt;/span&gt;A link from a random text.&lt;/button&gt;&lt;button id="web3b" type="button" onclick="checkLessonAnswer('web3','b')"&gt;&lt;span&gt;B&lt;/span&gt;The official app or a saved bookmark.&lt;/button&gt;&lt;button id="web3c" type="button" onclick="checkLessonAnswer('web3','c')"&gt;&lt;span&gt;C&lt;/span&gt;The first advertisement you see.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="web3Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                &lt;/section&gt;
+
+                &lt;button class="lesson-complete quiz-complete" id="lessonCompleteButton" onclick="markLessonComplete('websites')" type="button" disabled&gt;Mark lesson complete&lt;/button&gt;
+                &lt;a class="lesson-next quiz-next" href="wifi-safety.html"&gt;Next: Wi-Fi Safety&lt;/a&gt;
+                &lt;p class="complete-message quiz-complete-message" id="completeMessage"&gt;Answer all 3 questions to unlock this button.&lt;/p&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;&lt;span class="footer-icon"&gt;â˜Ž&lt;/span&gt;Need help? call 1800 123 456&lt;/a&gt;
+                &lt;div class="footer-line"&gt;&lt;/div&gt;
+                &lt;span class="support-message"&gt;We're here to support you&lt;/span&gt;
+                &lt;span class="safe-message"&gt;&lt;span class="footer-icon"&gt;â™¥&lt;/span&gt;Stay safe, stay connected&lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>scam-emails.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Spotting Scam Emails&lt;/title&gt;
+        &lt;link rel="stylesheet" href="static/css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;&lt;img alt="Australian Silver Support" src="static/images/logo.png"&gt;&lt;/a&gt;
+                &lt;a class="nav-item home-link " href="main.html"&gt;Home&lt;/a&gt;
+                &lt;a class="nav-item learn-link active" href="learn.html"&gt;Learn&lt;/a&gt;
+                &lt;a class="nav-item glossary-link " href="glossary.html"&gt;Glossary&lt;/a&gt;
+                &lt;a class="nav-item game-link " href="escape-the-scam.html"&gt;Escape the Scam&lt;/a&gt;
+                &lt;a class="nav-item about-link " href="about.html"&gt;About Us&lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;ðŸ”Š Listen&lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;main class="main figma-page interactive-lesson lesson-email" id="main"&gt;
+                &lt;p class="fp-label"&gt;LESSON 1 â€¢ READ â†’ 3 QUESTIONS â†’ ESCAPE THE SCAM&lt;/p&gt;
+                &lt;h1 class="fp-title"&gt;Spotting Scam Emails&lt;/h1&gt;
+                &lt;p class="fp-intro"&gt;Scam emails can look convincing. Stop and check before you click.&lt;/p&gt;
+
+                &lt;section class="lesson-reading-panel"&gt;
+                    &lt;div class="step-chip"&gt;STEP 1 â€” READ&lt;/div&gt;
+                    &lt;h2&gt;Key tips to remember&lt;/h2&gt;
+                    &lt;ul&gt;&lt;li&gt;Urgency or fear is a common scam warning sign.&lt;/li&gt;&lt;li&gt;Do not trust unexpected links or attachments.&lt;/li&gt;&lt;li&gt;Never give passwords or security codes through an unexpected message.&lt;/li&gt;&lt;li&gt;Verify the sender using contact details you already trust.&lt;/li&gt;&lt;/ul&gt;
+                    &lt;div class="game-prep-note"&gt;&lt;strong&gt;Why this matters:&lt;/strong&gt; these exact skills are used again in Escape the Scam.&lt;/div&gt;
+                &lt;/section&gt;
+
+                &lt;section class="lesson-quiz-panel"&gt;
+                    &lt;div class="quiz-panel-title"&gt;&lt;span class="step-chip"&gt;STEP 2 â€” CHECK&lt;/span&gt;&lt;h2&gt;3 Quick Questions&lt;/h2&gt;&lt;p&gt;Get instant feedback before you continue.&lt;/p&gt;&lt;/div&gt;
+                    &lt;article class="lesson-question" id="email1"&gt;
+                        &lt;h3&gt;1. An email says your account closes in 20 minutes. What should you do?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="email1a" type="button" onclick="checkLessonAnswer('email1','a')"&gt;&lt;span&gt;A&lt;/span&gt;Click the link immediately.&lt;/button&gt;&lt;button id="email1b" type="button" onclick="checkLessonAnswer('email1','b')"&gt;&lt;span&gt;B&lt;/span&gt;Open the official app or call a trusted number.&lt;/button&gt;&lt;button id="email1c" type="button" onclick="checkLessonAnswer('email1','c')"&gt;&lt;span&gt;C&lt;/span&gt;Reply with your password.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="email1Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                    &lt;article class="lesson-question" id="email2"&gt;
+                        &lt;h3&gt;2. Which is a scam warning sign?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="email2a" type="button" onclick="checkLessonAnswer('email2','a')"&gt;&lt;span&gt;A&lt;/span&gt;An unexpected request for a security code.&lt;/button&gt;&lt;button id="email2b" type="button" onclick="checkLessonAnswer('email2','b')"&gt;&lt;span&gt;B&lt;/span&gt;A message you expected from a friend.&lt;/button&gt;&lt;button id="email2c" type="button" onclick="checkLessonAnswer('email2','c')"&gt;&lt;span&gt;C&lt;/span&gt;A saved bookmark you opened yourself.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="email2Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                    &lt;article class="lesson-question" id="email3"&gt;
+                        &lt;h3&gt;3. What is safest when a sender seems suspicious?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="email3a" type="button" onclick="checkLessonAnswer('email3','a')"&gt;&lt;span&gt;A&lt;/span&gt;Trust the logo because it looks real.&lt;/button&gt;&lt;button id="email3b" type="button" onclick="checkLessonAnswer('email3','b')"&gt;&lt;span&gt;B&lt;/span&gt;Check the message using a trusted contact method.&lt;/button&gt;&lt;button id="email3c" type="button" onclick="checkLessonAnswer('email3','c')"&gt;&lt;span&gt;C&lt;/span&gt;Send your details to prove who you are.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="email3Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                &lt;/section&gt;
+
+                &lt;button class="lesson-complete quiz-complete" id="lessonCompleteButton" onclick="markLessonComplete('emails')" type="button" disabled&gt;Mark lesson complete&lt;/button&gt;
+                &lt;a class="lesson-next quiz-next" href="safe-websites.html"&gt;Next: Safe Websites&lt;/a&gt;
+                &lt;p class="complete-message quiz-complete-message" id="completeMessage"&gt;Answer all 3 questions to unlock this button.&lt;/p&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;&lt;span class="footer-icon"&gt;â˜Ž&lt;/span&gt;Need help? call 1800 123 456&lt;/a&gt;
+                &lt;div class="footer-line"&gt;&lt;/div&gt;
+                &lt;span class="support-message"&gt;We're here to support you&lt;/span&gt;
+                &lt;span class="safe-message"&gt;&lt;span class="footer-icon"&gt;â™¥&lt;/span&gt;Stay safe, stay connected&lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h3>wifi-safety.html</h3><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Using Public Wi-Fi Safely&lt;/title&gt;
+        &lt;link rel="stylesheet" href="static/css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="webpage"&gt;
+            &lt;!-- navigation --&gt;
+            &lt;nav class="navbar"&gt;
+                &lt;a class="logo" href="main.html"&gt;&lt;img alt="Australian Silver Support" src="static/images/logo.png"&gt;&lt;/a&gt;
+                &lt;a class="nav-item home-link " href="main.html"&gt;Home&lt;/a&gt;
+                &lt;a class="nav-item learn-link active" href="learn.html"&gt;Learn&lt;/a&gt;
+                &lt;a class="nav-item glossary-link " href="glossary.html"&gt;Glossary&lt;/a&gt;
+                &lt;a class="nav-item game-link " href="escape-the-scam.html"&gt;Escape the Scam&lt;/a&gt;
+                &lt;a class="nav-item about-link " href="about.html"&gt;About Us&lt;/a&gt;
+                &lt;button aria-label="Read the main page content aloud" class="listen-button" id="listenButton" type="button"&gt;ðŸ”Š Listen&lt;/button&gt;
+            &lt;/nav&gt;
+            &lt;main class="main figma-page interactive-lesson lesson-wifi" id="main"&gt;
+                &lt;p class="fp-label"&gt;LESSON 3 â€¢ READ â†’ 3 QUESTIONS â†’ ESCAPE THE SCAM&lt;/p&gt;
+                &lt;h1 class="fp-title"&gt;Using Public Wi-Fi Safely&lt;/h1&gt;
+                &lt;p class="fp-intro"&gt;Public Wi-Fi can be useful, but unfamiliar networks are not the best place for sensitive tasks.&lt;/p&gt;
+
+                &lt;section class="lesson-reading-panel"&gt;
+                    &lt;div class="step-chip"&gt;STEP 1 â€” READ&lt;/div&gt;
+                    &lt;h2&gt;Safer Wi-Fi habits&lt;/h2&gt;
+                    &lt;ul&gt;&lt;li&gt;Avoid banking on unknown public Wi-Fi.&lt;/li&gt;&lt;li&gt;Use mobile data for sensitive tasks when possible.&lt;/li&gt;&lt;li&gt;Do not automatically connect to unfamiliar networks.&lt;/li&gt;&lt;li&gt;Use a connection you trust for passwords or payments.&lt;/li&gt;&lt;/ul&gt;
+                    &lt;div class="game-prep-note"&gt;&lt;strong&gt;Why this matters:&lt;/strong&gt; these exact skills are used again in Escape the Scam.&lt;/div&gt;
+                &lt;/section&gt;
+
+                &lt;section class="lesson-quiz-panel"&gt;
+                    &lt;div class="quiz-panel-title"&gt;&lt;span class="step-chip"&gt;STEP 2 â€” CHECK&lt;/span&gt;&lt;h2&gt;3 Quick Questions&lt;/h2&gt;&lt;p&gt;Get instant feedback before you continue.&lt;/p&gt;&lt;/div&gt;
+                    &lt;article class="lesson-question" id="wifi1"&gt;
+                        &lt;h3&gt;1. You need to do online banking at a cafÃ©. What is safer?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="wifi1a" type="button" onclick="checkLessonAnswer('wifi1','a')"&gt;&lt;span&gt;A&lt;/span&gt;Use the free public Wi-Fi.&lt;/button&gt;&lt;button id="wifi1b" type="button" onclick="checkLessonAnswer('wifi1','b')"&gt;&lt;span&gt;B&lt;/span&gt;Use your own mobile data or wait.&lt;/button&gt;&lt;button id="wifi1c" type="button" onclick="checkLessonAnswer('wifi1','c')"&gt;&lt;span&gt;C&lt;/span&gt;Use whichever network has the strongest signal.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="wifi1Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                    &lt;article class="lesson-question" id="wifi2"&gt;
+                        &lt;h3&gt;2. What should you avoid on unknown public Wi-Fi?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="wifi2a" type="button" onclick="checkLessonAnswer('wifi2','a')"&gt;&lt;span&gt;A&lt;/span&gt;Reading the news.&lt;/button&gt;&lt;button id="wifi2b" type="button" onclick="checkLessonAnswer('wifi2','b')"&gt;&lt;span&gt;B&lt;/span&gt;Sensitive logins and payments.&lt;/button&gt;&lt;button id="wifi2c" type="button" onclick="checkLessonAnswer('wifi2','c')"&gt;&lt;span&gt;C&lt;/span&gt;Checking the weather.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="wifi2Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                    &lt;article class="lesson-question" id="wifi3"&gt;
+                        &lt;h3&gt;3. Which habit is safer?&lt;/h3&gt;
+                        &lt;div class="lesson-answer-row"&gt;&lt;button id="wifi3a" type="button" onclick="checkLessonAnswer('wifi3','a')"&gt;&lt;span&gt;A&lt;/span&gt;Automatically connect to every network.&lt;/button&gt;&lt;button id="wifi3b" type="button" onclick="checkLessonAnswer('wifi3','b')"&gt;&lt;span&gt;B&lt;/span&gt;Use trusted networks only.&lt;/button&gt;&lt;button id="wifi3c" type="button" onclick="checkLessonAnswer('wifi3','c')"&gt;&lt;span&gt;C&lt;/span&gt;Ignore the network name.&lt;/button&gt;&lt;/div&gt;
+                        &lt;p class="lesson-feedback" id="wifi3Feedback"&gt;Choose one answer.&lt;/p&gt;
+                    &lt;/article&gt;
+                &lt;/section&gt;
+
+                &lt;button class="lesson-complete quiz-complete" id="lessonCompleteButton" onclick="markLessonComplete('wifi')" type="button" disabled&gt;Mark lesson complete&lt;/button&gt;
+                &lt;a class="lesson-next quiz-next" href="passwords.html"&gt;Next: Passwords&lt;/a&gt;
+                &lt;p class="complete-message quiz-complete-message" id="completeMessage"&gt;Answer all 3 questions to unlock this button.&lt;/p&gt;
+            &lt;/main&gt;
+            &lt;!-- footer --&gt;
+            &lt;footer class="footer"&gt;
+                &lt;a class="help-link" href="help.html"&gt;&lt;span class="footer-icon"&gt;â˜Ž&lt;/span&gt;Need help? call 1800 123 456&lt;/a&gt;
+                &lt;div class="footer-line"&gt;&lt;/div&gt;
+                &lt;span class="support-message"&gt;We're here to support you&lt;/span&gt;
+                &lt;span class="safe-message"&gt;&lt;span class="footer-icon"&gt;â™¥&lt;/span&gt;Stay safe, stay connected&lt;/span&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+        &lt;script src="static/js/Tung.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h2>CSS</h2>
+<h3>style.css</h3><pre>
+@font-face {
+    font-family:Inter;
+    src:local("Inter");
+    font-style:normal
+}
+
+:root {
+    --navy:#062b69;
+    --black:#0a0a0a;
+    --header:#ececec;
+    --page:#f6f9fd;
+    --lime:#f3ffa2;
+    --yellow:#fff0a4;
+    --purple:#dab4fa;
+    --blue:#9ed8fa;
+    --aqua:#a9e6f4;
+    --pale:#e8f0fa;
+    --green:#3eb34d;
+    --muted:#4b6a92;
+    --border:#d8e4f2
+}
+
+* {
+    box-sizing:border-box
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    background:#dfe4ea;
+    font-family:Inter,Arial,sans-serif;
+    color:var(--navy)
+}
+
+a {
+    color:inherit
+}
+
+button,input {
+    font:inherit
+}
+
+.webpage {
+    width:1496px;
+    height:850px;
+    position:relative;
+    margin:0 auto;
+    background:#fff;
+    overflow:hidden
+}
+
+/* navigation */
+.navbar {
+    position:absolute;
+    left:0;
+    top:0;
+    width:1496px;
+    height:89px;
+    background:#ececec;
+    border-bottom:4px solid #111;
+    z-index:20
+}
+
+.logo {
+    position:absolute;
+    left:8px;
+    top:8px;
+    width:255px;
+    height:72px;
+    display:block
+}
+
+.logo img {
+    width:245px;
+    height:72px;
+    object-fit:contain;
+    object-position:left center
+}
+
+.nav-item {
+    position:absolute;
+    top:20px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    text-decoration:none;
+    color:#0a0a0a;
+    font-weight:800;
+    font-size:27px;
+    line-height:30px;
+    border-radius:8px
+}
+
+.nav-item:hover,.nav-item:focus {
+    background:#fff
+}
+
+.nav-item.active {
+    color:#062b69
+}
+
+.home-link {
+    left:456px;
+    width:86px
+}
+
+.learn-link {
+    left:594px;
+    width:84px
+}
+
+.glossary-link {
+    left:744px;
+    width:130px
+}
+
+.game-link {
+    left:901px;
+    width:220px;
+    top:12px;
+    height:66px
+}
+
+.about-link {
+    left:1160px;
+    width:132px
+}
+
+.listen-button {
+    position:absolute;
+    left:1310px;
+    top:21px;
+    width:168px;
+    height:55px;
+    border:0;
+    border-radius:14px;
+    background:#062b69;
+    color:#fff;
+    font-size:26px;
+    font-weight:800;
+    cursor:pointer
+}
+
+.listen-button:hover,.listen-button:focus {
+    outline:3px solid #9ed8fa
+}
+
+/* footer */
+.footer {
+    position:absolute;
+    left:0;
+    top:795px;
+    width:1496px;
+    height:55px;
+    background:#062b69;
+    color:#fff;
+    z-index:20
+}
+
+.footer a,.footer span {
+    position:absolute;
+    top:7px;
+    height:40px;
+    line-height:40px;
+    color:#fff;
+    text-decoration:none;
+    font-size:25px;
+    font-weight:400;
+    white-space:nowrap
+}
+
+.help-link {
+    left:68px
+}
+
+.footer-line {
+    position:absolute;
+    left:502px;
+    top:11px;
+    width:4px;
+    height:35px;
+    background:#fff
+}
+
+.support-message {
+    left:551px
+}
+
+.safe-message {
+    left:1099px
+}
+
+.footer-icon {
+    display:inline-block;
+    margin-right:10px;
+    font-size:28px
+}
+
+.main {
+    position:absolute;
+    left:0;
+    top:89px;
+    width:1496px;
+    height:706px;
+    background:#f6f9fd;
+    overflow:hidden
+}
+
+
+/* home page */
+.hero-left {
+    position:absolute;
+    left:0;
+    top:0;
+    width:748px;
+    height:387px;
+    background:#eee
+}
+
+.hero-photo {
+    position:absolute;
+    left:748px;
+    top:0;
+    width:748px;
+    height:387px;
+    overflow:hidden
+}
+
+.hero-photo&gt;img.hero-man {
+    width:110%;
+    height:100%;
+    object-fit:cover;
+    object-position:center 42%
+}
+
+.hero-shield {
+    position:absolute;
+    left:628px;
+    top:105px;
+    width:240px;
+    height:270px;
+    object-fit:contain;
+    z-index:5
+}
+
+.hero-title {
+    position:absolute;
+    left:85px;
+    top:18px;
+    width:579px;
+    height:130px;
+    text-align:center;
+    font-weight:800;
+    font-size:48px;
+    line-height:72px
+}
+
+.hero-text {
+    position:absolute;
+    left:171px;
+    top:176px;
+    width:406px;
+    font-size:24px;
+    line-height:32px;
+    font-weight:600
+}
+
+.start-button {
+    position:absolute;
+    left:224px;
+    top:297px;
+    width:300px;
+    height:68px;
+    border-radius:22px;
+    background:#3eb34d;
+    color:#fff;
+    text-decoration:none;
+    font-size:28px;
+    font-weight:800;
+    display:flex;
+    align-items:center;
+    padding-left:82px
+}
+
+.start-arrow {
+    position:absolute;
+    left:28px;
+    top:12px;
+    width:43px;
+    height:43px;
+    border-radius:50%;
+    background:#fff;
+    color:#3eb34d;
+    display:grid;
+    place-items:center;
+    font-size:27px
+}
+
+.learn-background {
+    position:absolute;
+    left:0;
+    top:387px;
+    width:1496px;
+    height:319px;
+    background:#e9f2fc
+}
+
+.learn-heading {
+    position:absolute;
+    left:454px;
+    top:388px;
+    width:592px;
+    height:40px;
+    text-align:center;
+    font-size:31px;
+    line-height:36px;
+    font-weight:800
+}
+
+.learn-card {
+    position:absolute;
+    top:426px;
+    width:252px;
+    height:258px;
+    border-radius:36px;
+    padding:98px 18px 62px;
+    text-align:center;
+    font-size:20px;
+    line-height:27px;
+    font-weight:600
+}
+
+.scam-card {
+    left:18px;
+    background:#f5ffa6
+}
+
+.website-card {
+    left:313px;
+    width:263px;
+    background:#fff0a4
+}
+
+.wifi-card {
+    left:617px;
+    background:#dab4fa
+}
+
+.glossary-card-home {
+    left:915px;
+    background:#9ed8fa
+}
+
+.game-card {
+    left:1214px;
+    background:#a9e6f4
+}
+
+.card-icon {
+    position:absolute;
+    left:17px;
+    top:10px;
+    width:105px;
+    height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+.card-icon img {
+    max-width:110px;
+    max-height:74px;
+    object-fit:contain
+}
+
+.mail-icon {
+    font-size:58px
+}
+
+.card-next {
+    position:absolute;
+    right:8px;
+    bottom:8px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:#002b70;
+    color:#fff;
+    text-decoration:none;
+    display:grid;
+    place-items:center;
+    font-size:44px;
+    line-height:1;
+    font-weight:900
+}
+
+
+/* glossary */
+.glossary-label {
+    position:absolute;
+    left:70px;
+    top:27px;
+    font-size:15px;
+    line-height:20px;
+    font-weight:800;
+    color:#4b6a92
+}
+
+.glossary-title {
+    position:absolute;
+    left:70px;
+    top:54px;
+    width:720px;
+    font-size:48px;
+    line-height:56px;
+    font-weight:800;
+    margin:0
+}
+
+.glossary-intro {
+    position:absolute;
+    left:70px;
+    top:116px;
+    width:720px;
+    font-size:22px;
+    line-height:30px;
+    font-weight:600
+}
+
+.glossary-help {
+    position:absolute;
+    left:1020px;
+    top:30px;
+    width:406px;
+    height:116px;
+    border:1px solid #bfd0e6;
+    border-radius:22px;
+    background:#fff;
+    box-shadow:0 7px 20px rgba(5,31,74,.09)
+}
+
+.info-icon {
+    position:absolute;
+    left:22px;
+    top:27px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#e8f0fa;
+    display:grid;
+    place-items:center;
+    font-weight:800;
+    font-size:23px
+}
+
+.glossary-help h3 {
+    position:absolute;
+    left:78px;
+    top:15px;
+    margin:0;
+    font-size:18px
+}
+
+.glossary-help p {
+    position:absolute;
+    left:78px;
+    top:33px;
+    width:280px;
+    margin:0;
+    color:#4b6a92;
+    font-size:15px;
+    line-height:21px
+}
+
+.glossary-card {
+    position:absolute;
+    width:386px;
+    height:205px;
+    border:1px solid #d8e4f2;
+    border-radius:28px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:22px 24px
+}
+
+.phishing-card {
+    left:70px;
+    top:181px;
+    background:#f3ffa2
+}
+
+.https-card {
+    left:520px;
+    top:181px;
+    background:#fff0a4
+}
+
+.malware-card {
+    left:970px;
+    top:181px;
+    background:#dab4fa
+}
+
+.password-card {
+    left:70px;
+    top:426px;
+    background:#9ed8fa
+}
+
+.two-factor-card {
+    left:520px;
+    top:426px;
+    background:#a9e6f4
+}
+
+.public-wifi-card {
+    left:970px;
+    top:426px;
+    background:#e8f0fc
+}
+
+.glossary-card h2 {
+    font-size:25px;
+    line-height:30px;
+    margin:0 0 14px
+}
+
+.glossary-card p {
+    font-size:17px;
+    line-height:25px;
+    margin:0;
+    width:338px
+}
+
+.meaning-button {
+    position:absolute;
+    right:24px;
+    bottom:14px;
+    width:138px;
+    height:34px;
+    border:0;
+    border-radius:17px;
+    background:#062b69;
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    cursor:pointer
+}
+
+.rollover {
+    display:none;
+    position:absolute;
+    left:24px;
+    right:24px;
+    top:67px;
+    background:rgba(255,255,255,.95);
+    border-radius:12px;
+    padding:10px;
+    font-size:15px;
+    line-height:20px;
+    z-index:3
+}
+
+.glossary-card.open .rollover,.glossary-card:hover .rollover {
+    display:block
+}
+
+.glossary-tip {
+    position:absolute;
+    left:70px;
+    top:654px;
+    width:1356px;
+    height:35px;
+    border-radius:17px;
+    background:#e8f0fa;
+    color:#4b6a92;
+    text-align:center;
+    font-size:15px;
+    line-height:35px;
+    font-weight:600
+}
+
+
+/* about page */
+.about-label {
+    position:absolute;
+    left:80px;
+    top:33px;
+    font-size:16px;
+    line-height:20px;
+    font-weight:800;
+    color:#4b6a92
+}
+
+.about-title {
+    position:absolute;
+    left:80px;
+    top:60px;
+    width:660px;
+    font-size:52px;
+    line-height:58px;
+    font-weight:800;
+    margin:0
+}
+
+.about-intro {
+    position:absolute;
+    left:80px;
+    top:189px;
+    width:660px;
+    font-size:25px;
+    line-height:34px;
+    font-weight:600;
+    margin:0
+}
+
+.mission {
+    position:absolute;
+    left:790px;
+    top:31px;
+    width:626px;
+    height:252px;
+    border-radius:30px;
+    background:#062b69;
+    color:#fff;
+    box-shadow:0 8px 22px rgba(5,31,74,.1);
+    padding:34px 40px
+}
+
+.mission .mission-label {
+    font-size:16px;
+    line-height:20px;
+    color:#bfd6f6;
+    font-weight:800;
+    margin:0
+}
+
+.mission h2 {
+    font-size:32px;
+    line-height:39px;
+    margin:11px 0 6px
+}
+
+.mission p {
+    font-size:18px;
+    line-height:27px;
+    margin:0;
+    width:515px
+}
+
+.support-title {
+    position:absolute;
+    left:80px;
+    top:328px;
+    width:660px;
+    font-size:29px;
+    line-height:34px;
+    margin:0
+}
+
+.support-intro {
+    position:absolute;
+    left:80px;
+    top:366px;
+    width:760px;
+    font-size:19px;
+    line-height:27px;
+    color:#4b6a92;
+    margin:0
+}
+
+.value-card {
+    position:absolute;
+    top:411px;
+    width:372px;
+    height:220px;
+    border:1px solid #d9e5f3;
+    border-radius:30px;
+    box-shadow:0 8px 22px rgba(5,31,74,.1);
+    padding:28px
+}
+
+.learn-value {
+    left:80px;
+    background:#f3ffa2
+}
+
+.safe-value {
+    left:522px;
+    background:#fff0a4
+}
+
+.help-value {
+    left:964px;
+    background:#a9e6f4
+}
+
+.value-card h3 {
+    font-size:24px;
+    line-height:29px;
+    margin:0 0 11px
+}
+
+.value-card p {
+    font-size:18px;
+    line-height:27px;
+    margin:0
+}
+
+.trust-strip {
+    position:absolute;
+    left:80px;
+    top:655px;
+    width:1336px;
+    height:34px;
+    border-radius:17px;
+    background:#e8f0fa;
+    color:#4b6a92;
+    text-align:center;
+    font-size:15px;
+    line-height:34px;
+    font-weight:600
+}
+
+
+/* lesson pages */
+.page-content {
+    padding:27px 70px
+}
+
+.page-label {
+    font-size:15px;
+    font-weight:800;
+    color:#4b6a92;
+    margin:0
+}
+
+.page-title {
+    font-size:48px;
+    line-height:56px;
+    margin:2px 0 0;
+    font-weight:800
+}
+
+.page-intro {
+    font-size:22px;
+    line-height:30px;
+    font-weight:600;
+    margin:4px 0 20px
+}
+
+.lesson-grid {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:24px
+}
+
+.lesson-card {
+    height:245px;
+    border:1px solid #d8e4f2;
+    border-radius:28px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:24px
+}
+
+.lesson-card:nth-child(1) {
+    background:#f3ffa2
+}
+
+.lesson-card:nth-child(2) {
+    background:#fff0a4
+}
+
+.lesson-card:nth-child(3) {
+    background:#dab4fa
+}
+
+.lesson-card:nth-child(4) {
+    background:#a9e6f4
+}
+
+.lesson-card h2 {
+    font-size:25px;
+    margin:0 0 10px
+}
+
+.lesson-card p {
+    font-size:17px;
+    line-height:25px
+}
+
+.button {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background:#062b69;
+    color:#fff;
+    text-decoration:none;
+    border:0;
+    border-radius:17px;
+    padding:9px 18px;
+    font-weight:700;
+    cursor:pointer
+}
+
+.info-box {
+    background:#fff;
+    border:1px solid #d8e4f2;
+    border-radius:24px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:20px 24px;
+    margin:15px 0
+}
+
+.info-box h2 {
+    font-size:25px;
+    margin:0 0 7px
+}
+
+.info-box p,.info-box li {
+    font-size:17px;
+    line-height:25px
+}
+
+.info-box li {
+    margin:5px 0
+}
+
+.safe-example {
+    background:#effbf1;
+    border-left:7px solid #3eb34d;
+    padding:12px;
+    border-radius:12px
+}
+
+.warning-example {
+    background:#fff0f2;
+    border-left:7px solid #c83c4a;
+    padding:12px;
+    border-radius:12px
+}
+
+.rollover-wrap {
+    font-weight:800;
+    text-decoration:underline dotted;
+    position:relative;
+    cursor:help
+}
+
+.rollover-wrap span {
+    display:none;
+    position:absolute;
+    left:0;
+    top:25px;
+    width:260px;
+    background:#062b69;
+    color:#fff;
+    border-radius:10px;
+    padding:10px;
+    z-index:5;
+    font-weight:400
+}
+
+.rollover-wrap:hover span,.rollover-wrap:focus span {
+    display:block
+}
+
+/* escape the scam game */
+.game-page {
+    width:1000px;
+    margin:0 auto
+}
+
+.game-info {
+    display:flex;
+    gap:12px;
+    margin:10px 0
+}
+
+.game-label {
+    background:#fff;
+    border:1px solid #d8e4f2;
+    border-radius:999px;
+    padding:7px 13px;
+    font-weight:700
+}
+
+.game-progress {
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:8px;
+    margin:12px 0
+}
+
+.game-progress div {
+    height:12px;
+    background:#d8e2ef;
+    border-radius:8px
+}
+
+.game-progress .done {
+    background:#3eb34d
+}
+
+.question-box {
+    background:#fff;
+    border:1px solid #d8e4f2;
+    border-radius:28px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:24px
+}
+
+.scenario-box {
+    background:#eef4fb;
+    border-radius:16px;
+    padding:14px;
+    margin:10px 0;
+    font-size:17px
+}
+
+.answer-buttons {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px
+}
+
+.answer-button {
+    height:100px;
+    border:3px solid #cbd7e6;
+    border-radius:18px;
+    background:#fff;
+    color:#062b69;
+    text-align:left;
+    padding:15px;
+    font-weight:600;
+    cursor:pointer
+}
+
+.feedback {
+    display:none;
+    margin-top:12px;
+    padding:12px;
+    border-radius:12px;
+    font-weight:700
+}
+
+.feedback.show {
+    display:block
+}
+
+.feedback.good {
+    background:#e9faec;
+    color:#176b24
+}
+
+.feedback.bad {
+    background:#fff0f2;
+    color:#8c2630
+}
+
+.safety-tip {
+    background:#fff8d5;
+    padding:11px;
+    border-radius:12px;
+    margin-top:10px
+}
+
+.score-box {
+    width:760px;
+    margin:35px auto;
+    background:#fff;
+    border-radius:28px;
+    box-shadow:0 7px 20px rgba(5,31,74,.09);
+    padding:30px;
+    text-align:center
+}
+
+.score-big {
+    font-size:52px;
+    font-weight:800
+}
+
+.help-grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:22px
+}
+
+.text-control {
+    border:2px solid #062b69;
+    background:#fff;
+    color:#062b69;
+    border-radius:12px;
+    padding:9px 14px;
+    font-weight:700;
+    cursor:pointer
+}
+
+@media(max-width:1496px) {
+    body {
+        overflow-x:auto
+    }
+
+    .webpage {
+        margin-left:0
+    }
+
+}
+
+/* ===== FIGMA TRANSLATED PAGES ===== */
+.figma-page { position:absolute; }
+.fp-label { position:absolute; left:70px; top:27px; width:700px; height:22px; margin:0; color:#4b6a92; font-size:15px; line-height:20px; font-weight:800; }
+.fp-title { position:absolute; left:70px; top:56px; width:1050px; height:60px; margin:0; color:#062b69; font-size:48px; line-height:56px; font-weight:800; }
+.fp-intro { position:absolute; left:70px; top:122px; width:1120px; height:60px; margin:0; color:#062b69; font-size:21px; line-height:30px; font-weight:600; }
+.learn-tile,.lesson-panel,.check-card,.wifi-habits,.wifi-why,.password-panel,.wide-info,.compare-panel,.help-card,.result-card,.figma-game-card { position:absolute; border:1px solid #d6e3f2; }
+.learn-tile { top:201px; width:310px; height:235px; border-radius:28px; padding:24px; }
+.learn-tile h2,.lesson-panel h2,.check-card h2,.wifi-habits h2,.wifi-why h2,.password-panel h2,.wide-info h2,.compare-panel h2,.help-card h2 { margin:0 0 10px; font-size:25px; line-height:30px; }
+.learn-tile p,.lesson-panel p,.check-card p,.wifi-why p,.password-panel p,.wide-info p,.help-card p { margin:0; font-size:17px; line-height:25px; }
+.tile-email { left:70px; background:#f5ffa6; }.tile-web { left:410px; background:#fff0a4; }.tile-wifi { left:750px; background:#dab4fa; }.tile-password { left:1090px; background:#a9e6f4; }
+.small-button { position:absolute; left:24px; bottom:20px; min-width:150px; height:38px; border-radius:18px; background:#062b69; color:#fff; text-decoration:none; display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:700; }
+.learn-how { left:70px; top:466px; width:1330px; height:160px; border-radius:28px; background:#fff; padding:24px; }
+.lesson-panel { border-radius:28px; padding:24px; }.phishing-box { left:70px; top:196px; width:560px; height:165px; background:#9ed8fa; }.warning-signs { left:660px; top:196px; width:736px; height:265px; background:#fff; }
+.warning-signs ul,.wifi-habits ul,.password-left ul { margin:0; padding-left:24px; font-size:17px; line-height:25px; }
+.scam-example,.safe-example-figma,.wifi-tip,.password-tip { position:absolute; border-radius:14px; font-size:17px; line-height:24px; }
+.scam-example { left:70px; top:396px; width:560px; height:82px; background:#fff0f2; color:#8c2630; padding:19px 22px; font-size:18px; font-weight:700; }
+.safe-example-figma { left:70px; top:494px; width:560px; height:82px; background:#edfcf0; color:#176b24; padding:15px 22px; font-weight:600; }
+.lesson-complete,.lesson-next { position:absolute; height:48px; border:0; border-radius:18px; color:#fff; font-size:18px; font-weight:700; display:flex; align-items:center; justify-content:center; text-decoration:none; cursor:pointer; }
+.lesson-complete { background:#3eb34d; width:240px; }.lesson-next { background:#062b69; }
+.complete-pos-one { left:660px; top:496px; }.next-pos-one { left:920px; top:496px; width:230px; }.complete-pos-two { left:70px; top:611px; }.next-pos-two { left:330px; top:611px; width:220px; }
+.complete-message { position:absolute; left:660px; top:552px; margin:0; font-size:15px; font-weight:700; color:#176b24; }.complete-two { left:70px; top:667px; }
+.check-card { top:201px; height:210px; border-radius:28px; padding:24px; }.check-one { left:70px; width:390px; background:#fff0a4; }.check-two { left:500px; width:390px; background:#9ed8fa; }.check-three { left:930px; width:466px; background:#a9e6f4; }
+.compare-panel { left:70px; top:441px; width:1326px; height:145px; background:#fff; border-radius:24px; padding:20px 24px; }.compare-panel h2{font-size:24px}.good-url,.bad-url{position:absolute;top:67px;margin:0;font-size:18px;font-weight:700}.good-url{left:24px;color:#176b24}.bad-url{left:580px;color:#8c2630}
+.wifi-habits { left:70px; top:201px; width:700px; height:330px; background:#dab4fa; border-radius:28px; padding:24px; }.wifi-why { left:810px; top:201px; width:586px; height:210px; background:#fff; border-radius:28px; padding:24px; }.wifi-tip { left:810px; top:436px; width:586px; height:95px; background:#a9e6f4; color:#062b69; padding:23px 28px; font-size:18px; font-weight:700; }.wifi-complete{left:810px;top:561px}.wifi-next{left:1070px;top:561px;width:210px}.wifi-message{left:810px;top:617px}
+.password-panel { top:201px; width:640px; height:285px; border-radius:28px; padding:24px; }.password-left { left:70px; background:#f5ffa6; }.password-right { left:750px; width:646px; background:#9ed8fa; }.password-tip { left:70px; top:516px; width:1326px; height:80px; background:#fff0a4; padding:21px 26px; color:#062b69; font-size:18px; font-weight:600; }.password-complete{left:70px;top:621px}.password-next{left:330px;top:621px;width:240px}.password-message{left:70px;top:677px}
+.rollover-wrap { font-weight:800; text-decoration:underline dotted; position:relative; cursor:help; }.rollover-wrap span { display:none; position:absolute; left:0; top:24px; width:260px; background:#062b69; color:#fff; border-radius:10px; padding:10px; z-index:30; font-weight:400; font-size:15px; line-height:20px; }.rollover-wrap:hover span,.rollover-wrap:focus span{display:block}
+.game-count { position:absolute;left:70px;top:189px;width:180px;height:32px;margin:0;font-size:17px;line-height:24px;font-weight:700 }.game-score { position:absolute;right:106px;top:189px;width:180px;height:32px;margin:0;text-align:right;font-size:17px;line-height:24px;font-weight:700 }.game-progress { position:absolute;left:70px;top:236px;width:1304px;height:13px;display:flex;gap:26px }.game-progress span { width:240px;height:13px;border-radius:7px;background:#d6e3f0 }.game-progress span.done {background:#3eb34d}.game-progress span:first-child{background:#3eb34d}
+.figma-game-card { left:160px; top:281px; width:1176px; height:330px; background:#fff; border-radius:28px; }.game-type{position:absolute;left:40px;top:28px;margin:0;color:#4b6a92;font-size:15px;font-weight:800}.figma-game-card h2{position:absolute;left:40px;top:55px;width:900px;margin:0;font-size:30px;line-height:36px}.game-scenario{position:absolute;left:40px;top:120px;width:1096px;height:70px;border-radius:14px;background:#e9f2fc;padding:17px 22px;font-size:17px;line-height:24px;font-weight:600}.game-answer{position:absolute;top:215px;width:510px;height:80px;border:1px solid #bfd1e5;border-radius:16px;background:#fff;color:#062b69;text-align:left;padding:14px 22px;font-size:17px;line-height:24px;font-weight:600;cursor:pointer}.answer-left{left:40px}.answer-right{left:626px}.game-answer:hover{border-width:3px}.game-feedback{position:absolute;left:40px;top:300px;width:510px;min-height:0;font-size:14px;font-weight:700}.game-teach{position:absolute;left:626px;top:300px;width:510px;min-height:0;font-size:14px}.game-next{display:none;position:absolute;right:160px;top:624px;width:170px;height:44px;border:0;border-radius:16px;background:#062b69;color:#fff;font-size:17px;font-weight:700;cursor:pointer}
+.result-card { left:300px; top:196px; width:896px; height:430px; background:#fff; border-radius:30px; text-align:center; }.result-tick{position:absolute;left:350px;top:20px;width:196px;font-size:66px;line-height:72px;font-weight:700;color:#3eb34d}.result-card h2{position:absolute;left:120px;top:100px;width:656px;margin:0;font-size:38px;line-height:44px}.result-label{position:absolute;left:120px;top:166px;width:656px;margin:0;font-size:18px;font-weight:600}.result-score{position:absolute;left:120px;top:201px;width:656px;font-size:52px;line-height:60px;font-weight:800}.result-practice{position:absolute;left:110px;top:290px;width:676px;margin:0;font-size:17px;line-height:25px}.result-button{position:absolute;top:365px;width:210px;height:48px;border-radius:18px;color:#fff;text-decoration:none;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700}.result-again{left:170px;background:#062b69}.result-home{left:516px;background:#3eb34d}
+.help-card { border-radius:28px; padding:24px; }.help-text{left:70px;top:211px;width:620px;height:190px;background:#fff}.help-listen{left:730px;top:211px;width:666px;height:190px;background:#9ed8fa}.help-phone{left:70px;top:441px;width:620px;height:160px;background:#fff0a4}.help-nav{left:730px;top:441px;width:666px;height:160px;background:#a9e6f4}.help-control{position:absolute;top:124px;height:42px;border:0;border-radius:18px;background:#062b69;color:#fff;font-size:18px;font-weight:700;cursor:pointer}.control-large{left:24px;width:150px}.control-small{left:190px;width:150px}.control-reset{left:356px;width:120px}
+@media(max-width:1496px){body{overflow-x:auto}.webpage{margin-left:0}}
+
+/* final layout fixes */
+html, body {
+    width:100%;
+    min-height:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+body {
+    display:block;
+    background:#dfe4ea;
+}
+
+#pageHolder {
+    position:relative;
+    width:100vw;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.webpage {
+    margin:0;
+    transform-origin:top left;
+}
+
+/* slightly larger brand logo while keeping the header height */
+.logo {
+    left:10px;
+    top:4px;
+    width:292px;
+    height:80px;
+}
+
+.logo img {
+    width:282px;
+    height:80px;
+    object-fit:contain;
+    object-position:left center;
+}
+
+/* footer content is laid out in three clean zones so icons and text cannot overlap */
+.footer {
+    display:grid;
+    grid-template-columns:430px 1fr 390px;
+    align-items:center;
+    column-gap:34px;
+    padding:0 54px;
+}
+
+.footer a,
+.footer span {
+    position:static;
+    top:auto;
+    height:auto;
+    line-height:1.15;
+    font-size:22px;
+    white-space:nowrap;
+}
+
+.help-link,
+.support-message,
+.safe-message {
+    left:auto;
+    display:flex;
+    align-items:center;
+    min-width:0;
+}
+
+.support-message {
+    justify-self:center;
+}
+
+.safe-message {
+    justify-self:end;
+}
+
+.footer-line {
+    display:none;
+}
+
+.footer-icon {
+    position:static !important;
+    display:inline-flex !important;
+    align-items:center;
+    justify-content:center;
+    margin-right:12px;
+    min-width:32px;
+    font-size:27px !important;
+}
+
+/* keep the lesson card icons centred inside the coloured top area */
+.card-icon {
+    left:50% !important;
+    top:12px !important;
+    width:112px !important;
+    height:72px !important;
+    transform:translateX(-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card-icon img {
+    display:block;
+    width:100%;
+    height:100%;
+    max-width:112px;
+    max-height:72px;
+    object-fit:contain;
+    object-position:center center;
+}
+
+/* glossary definitions are hidden unless the pointer/focus is on that exact button */
+.glossary-card .rollover {
+    display:none !important;
+    position:absolute;
+    left:22px;
+    right:22px;
+    top:70px;
+    min-height:92px;
+    padding:14px 16px;
+    border-radius:14px;
+    background:#ffffff;
+    color:#062b69;
+    box-shadow:0 5px 18px rgba(6,43,105,0.16);
+    font-size:16px;
+    line-height:22px;
+    z-index:10;
+    pointer-events:none;
+}
+
+.glossary-card:hover .rollover,
+.glossary-card.open .rollover {
+    display:none !important;
+}
+
+.glossary-card .meaning-button:hover + .rollover,
+.glossary-card .meaning-button:focus + .rollover,
+.glossary-card .meaning-button:focus-visible + .rollover {
+    display:block !important;
+}
+
+.glossary-card .meaning-button {
+    z-index:12;
+}
+
+/* expanded Escape the Scam test */
+.game-progress {
+    display:grid !important;
+    grid-template-columns:repeat(10, 1fr) !important;
+    gap:8px !important;
+    left:70px !important;
+    width:1320px !important;
+}
+
+.game-progress span {
+    width:auto !important;
+}
+
+.figma-game-card {
+    left:140px !important;
+    top:294px !important;
+    width:1216px !important;
+    height:345px !important;
+}
+
+.figma-game-card h2 {
+    width:1070px !important;
+    font-size:27px !important;
+}
+
+.game-scenario {
+    width:1136px !important;
+    min-height:64px !important;
+    height:auto !important;
+}
+
+.game-answer {
+    top:205px !important;
+    width:530px !important;
+    height:78px !important;
+    transition:0.15s ease;
+}
+
+.answer-left {
+    left:40px !important;
+}
+
+.answer-right {
+    left:646px !important;
+}
+
+.game-answer.selected {
+    border:4px solid #062b69 !important;
+    background:#e9f2fc !important;
+}
+
+.game-answer.correct-choice {
+    border:4px solid #2c9f3c !important;
+    background:#e7f8ea !important;
+}
+
+.game-answer.wrong-choice {
+    border:4px solid #cf3546 !important;
+    background:#fff0f2 !important;
+}
+
+.short-answer {
+    display:none;
+    position:absolute;
+    left:40px;
+    top:198px;
+    width:1136px;
+    height:88px;
+    resize:none;
+    border:3px solid #bfd1e5;
+    border-radius:16px;
+    padding:17px 20px;
+    color:#062b69;
+    background:#fff;
+    font-family:Inter,Arial,sans-serif;
+    font-size:18px;
+    line-height:25px;
+}
+
+.short-answer:focus {
+    outline:4px solid #9ed8fa;
+}
+
+.game-feedback {
+    left:40px !important;
+    top:294px !important;
+    width:520px !important;
+    min-height:38px !important;
+    padding:8px 12px;
+    border-radius:10px;
+    font-size:16px !important;
+    line-height:22px;
+}
+
+.game-feedback.visible.correct {
+    background:#dff6e4;
+    border:2px solid #2c9f3c;
+    color:#176b24;
+    font-weight:900;
+}
+
+.game-feedback.visible.incorrect {
+    background:#ffe7ea;
+    border:2px solid #cf3546;
+    color:#8c2630;
+    font-weight:900;
+}
+
+.game-teach {
+    left:590px !important;
+    top:294px !important;
+    width:586px !important;
+    min-height:38px !important;
+    padding:8px 12px;
+    border-radius:10px;
+    background:#fff7cf;
+    font-size:15px !important;
+    line-height:21px;
+}
+
+.check-answer,
+.game-next {
+    position:absolute;
+    top:650px !important;
+    height:46px;
+    border:0;
+    border-radius:17px;
+    color:#fff;
+    font-size:18px;
+    font-weight:800;
+    cursor:pointer;
+}
+
+.check-answer {
+    right:350px;
+    width:190px;
+    background:#3eb34d;
+}
+
+.game-next {
+    right:140px !important;
+    width:190px !important;
+    background:#062b69;
+}
+
+.check-answer:hover,
+.game-next:hover {
+    filter:brightness(1.08);
+}
+
+.larger-text {
+    font-size:108%;
+}
+
+.smaller-text {
+    font-size:94%;
+}
+
+
+/* FINAL GLOSSARY ROLLOVER BEHAVIOUR
+   The definition can ONLY appear while the exact View meaning button is hovered
+   or keyboard-focused. Hovering anywhere else on the card does nothing. */
+.glossary-card .rollover {
+    display:block !important;
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(6px);
+    transition:opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+    pointer-events:none;
+}
+
+.glossary-card:hover .rollover,
+.glossary-card.open .rollover {
+    opacity:0 !important;
+    visibility:hidden !important;
+}
+
+.glossary-card .meaning-button:hover + .rollover,
+.glossary-card .meaning-button:focus + .rollover,
+.glossary-card .meaning-button:focus-visible + .rollover {
+    opacity:1 !important;
+    visibility:visible !important;
+    transform:translateY(0);
+}
+
+.meaning-button {
+    transition:transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.meaning-button:hover,
+.meaning-button:focus-visible {
+    transform:translateY(-2px);
+    box-shadow:0 5px 12px rgba(6,43,105,0.22);
+    outline:3px solid rgba(158,216,250,0.9);
+    outline-offset:2px;
+}
+
+/* Keep the safe-website lock/image perfectly centred within its icon area. */
+.website-card .card-icon {
+    left:50% !important;
+    transform:translateX(-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.website-card .card-icon img {
+    display:block;
+    margin:auto;
+    object-fit:contain;
+    object-position:center center;
+}
+
+
+/* ================================================================
+   FINAL VS CODE BUILD â€” lesson practice flow and exact storyboard UI
+   ================================================================ */
+.lesson-flow-strip{position:absolute;left:70px;top:186px;width:1330px;height:90px;border:1px solid #d8e4f2;border-radius:24px;background:#fff;display:flex;align-items:center;justify-content:center;gap:35px;box-shadow:0 5px 18px rgba(5,31,74,.06)}
+.flow-step{width:250px;height:58px;display:grid;grid-template-columns:50px 1fr;grid-template-rows:27px 22px;column-gap:12px;align-items:center}.flow-step span{grid-row:1/3;width:48px;height:48px;border-radius:50%;background:#062b69;color:#fff;display:grid;place-items:center;font-size:20px;font-weight:800}.flow-step strong{font-size:19px}.flow-step small{font-size:14px;color:#4b6a92}.flow-arrow{font-size:31px;font-weight:800}
+.learn-prep-page .prep-tile{top:304px;height:260px}.learn-prep-page .prep-tile h2{margin-top:41px}.prep-icon{position:absolute;left:24px;top:20px;width:44px;height:44px;border-radius:15px;background:#fff;display:grid;place-items:center;font-size:24px}.prep-badge{position:absolute;left:24px;bottom:62px;height:28px;border-radius:14px;background:rgba(255,255,255,.92);padding:0 12px;line-height:28px;font-size:12px;font-weight:800}.learn-prep-page .small-button{bottom:15px;height:38px;font-size:15px}.prepare-for-game{position:absolute;left:70px;top:594px;width:1330px;min-height:75px;border-radius:22px;background:#fff;border:1px solid #d8e4f2;padding:20px 25px;color:#304c71;font-size:16px;line-height:24px}
+
+.interactive-lesson .fp-intro{width:1220px}.lesson-reading-panel{position:absolute;left:70px;top:185px;width:505px;height:420px;border-radius:30px;border:1px solid #d8e4f2;padding:25px 28px;box-shadow:0 6px 20px rgba(5,31,74,.06)}.lesson-email .lesson-reading-panel{background:#f5ffa6}.lesson-web .lesson-reading-panel{background:#fff0a4}.lesson-wifi .lesson-reading-panel{background:#dab4fa}.lesson-password .lesson-reading-panel{background:#9ed8fa}.step-chip{display:inline-block;height:30px;border-radius:12px;background:#062b69;color:#fff;padding:0 13px;line-height:30px;font-size:12px;font-weight:800}.lesson-reading-panel h2{font-size:27px;margin:20px 0 13px}.lesson-reading-panel ul{padding-left:24px;margin:0;font-size:17px;line-height:27px}.lesson-reading-panel li{margin:5px 0}.game-prep-note{position:absolute;left:28px;right:28px;bottom:24px;border-radius:15px;background:rgba(255,255,255,.9);padding:13px 15px;color:#304c71;font-size:14px;line-height:20px}
+.lesson-quiz-panel{position:absolute;left:605px;top:185px;width:791px;height:467px;border-radius:30px;background:#fff;border:1px solid #d8e4f2;padding:20px 23px;box-shadow:0 6px 20px rgba(5,31,74,.06)}.quiz-panel-title{height:56px;position:relative}.quiz-panel-title .step-chip{position:absolute;left:0;top:0}.quiz-panel-title h2{position:absolute;left:123px;top:-1px;margin:0;font-size:24px}.quiz-panel-title p{position:absolute;left:123px;top:30px;margin:0;color:#4b6a92;font-size:13px}.lesson-question{height:127px;border-top:1px solid #d8e4f2;padding-top:10px}.lesson-question h3{margin:0 0 8px;font-size:15px;line-height:19px}.lesson-answer-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.lesson-answer-row button{min-height:43px;border:2px solid #cbd9e8;border-radius:12px;background:#f5f9fe;color:#062b69;padding:6px 8px;text-align:left;font-size:11.5px;line-height:14px;font-weight:650;cursor:pointer}.lesson-answer-row button span{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#fff;margin-right:5px;font-weight:800}.lesson-answer-row button:hover,.lesson-answer-row button:focus{outline:none;border-color:#062b69}.lesson-answer-row button.correct-answer{background:#e4f7e8;border-color:#3eb34d}.lesson-answer-row button.wrong-answer{background:#ffe8ea;border-color:#cf3546}.lesson-answer-row button:disabled{opacity:1;cursor:default}.lesson-feedback{margin:4px 0 0;color:#4b6a92;font-size:11.5px;line-height:16px}.lesson-feedback.correct{color:#176b24;font-weight:800}.lesson-feedback.incorrect{color:#8c2630;font-weight:800}.quiz-complete{left:70px;top:628px}.quiz-complete:disabled{background:#94aa98;cursor:not-allowed}.quiz-next{left:330px;top:628px;width:240px}.quiz-complete-message{left:605px;top:628px;width:620px;min-height:48px;margin:0;padding:12px 16px;border-radius:14px;background:#fff;color:#4b6a92;font-size:14px;line-height:20px}
+
+.game-final-page .fp-intro{width:1260px}.game-count-card,.game-score-card,.game-streak-card{position:absolute;top:181px;height:62px;border:1px solid #d8e4f2;border-radius:18px;background:#fff;padding:10px 18px}.game-count-card{left:70px;width:180px}.game-score-card{left:270px;width:150px}.game-streak-card{left:440px;width:150px}.game-count-card small,.game-score-card small,.game-streak-card small{display:block;color:#4b6a92;font-size:10px;font-weight:800}.game-count-card strong,.game-score-card strong,.game-streak-card strong{display:block;margin-top:4px;font-size:18px}.game-prep-label{position:absolute;left:620px;top:197px;width:750px;color:#4b6a92;font-size:13px;font-weight:800;text-align:right}.game-final-page .game-progress{top:260px!important}.game-final-page .figma-game-card{top:286px!important;height:350px!important}.game-final-page .check-answer,.game-final-page .game-next{top:646px!important}.game-progress span.current{background:#062b69!important}.game-progress span.correct-progress{background:#3eb34d!important}.game-progress span.wrong-progress{background:#cf3546!important}
+
+.enhanced-result-card{top:185px!important;height:465px!important;padding-top:18px}.result-stars{font-size:34px;letter-spacing:4px}.result-band{display:inline-block;margin-top:5px;min-width:300px;height:32px;border-radius:12px;background:#f3ffa2;line-height:32px;font-size:12px;font-weight:800}.enhanced-result-card h2{position:static;margin:14px 0 5px;font-size:30px}.enhanced-result-card .result-label{position:static;margin:0 0 6px}.enhanced-result-card .result-score{position:static;width:250px;height:92px;margin:0 auto;border-radius:26px;background:#062b69;color:#fff;line-height:92px;font-size:39px}.enhanced-result-card .result-practice{position:static;width:630px;margin:12px auto;color:#304c71}.result-topics{display:flex;justify-content:center;gap:10px}.result-topics span{padding:6px 12px;border-radius:13px;background:#eef4fb;font-size:12px;font-weight:700}.enhanced-result-card .result-button{top:auto;bottom:17px}.score-key{position:absolute;width:190px;border-radius:24px;padding:18px;text-align:center}.score-key strong{display:block;font-size:25px}.score-key span{display:block;margin-top:8px;font-size:15px;font-weight:700}.score-key-one{left:70px;top:225px;height:110px;background:#9ed8fa}.score-key-two{left:70px;top:355px;height:100px;background:#f3ffa2}.score-key-three{right:70px;top:225px;height:100px;background:#fff0a4}.score-key-four{right:70px;top:345px;height:110px;background:#ffe8ea}
+
+/* final header polish */
+.game-link{top:20px!important;height:50px!important;white-space:nowrap;font-size:22px!important;}
+.listen-button{font-size:22px!important;}
+.logo img{object-fit:contain!important;object-position:left center!important;}
+
+
+/* Help page text-size controls */
+.help-control:hover,
+.help-control:focus {
+    outline:4px solid #9ed8fa;
+    filter:brightness(1.08);
+}
+
+.text-size-status {
+    position:absolute;
+    left:24px;
+    top:169px;
+    width:440px;
+    margin:0;
+    color:#4b6a92;
+    font-size:14px !important;
+    line-height:18px !important;
+    font-weight:700;
+}
+
+
+/* FINAL HELP PAGE - fuller page layout and working controls */
+.help-text {
+    left:70px !important;
+    top:200px !important;
+    width:620px !important;
+    height:220px !important;
+}
+.help-listen {
+    left:730px !important;
+    top:200px !important;
+    width:666px !important;
+    height:220px !important;
+}
+.help-phone {
+    left:70px !important;
+    top:442px !important;
+    width:620px !important;
+    height:220px !important;
+}
+.help-nav {
+    left:730px !important;
+    top:442px !important;
+    width:666px !important;
+    height:220px !important;
+}
+.help-control {
+    top:122px !important;
+}
+.text-size-status {
+    left:24px !important;
+    top:174px !important;
+    width:520px !important;
+    margin:0 !important;
+    font-size:14px !important;
+    line-height:18px !important;
+    font-weight:700 !important;
+}
+.short-answer {
+    display:none !important;
+}
+
+</pre>
+<h2>JavaScript</h2>
+<h3>Tung.js</h3><pre>
+function spreadContainer(container, targetWidth) {
+    var baseWidth = Number(container.dataset.fitBaseWidth);
+
+    if (!baseWidth) {
+        baseWidth = container.getBoundingClientRect().width / (Number(container.dataset.fitScale) || 1);
+        container.dataset.fitBaseWidth = baseWidth;
+    }
+
+    Array.from(container.children).forEach(function (child) {
+        if (getComputedStyle(child).position !== "absolute") {
+            return;
+        }
+
+        if (child.dataset.fitLeft == null) {
+            child.dataset.fitLeft = parseFloat(getComputedStyle(child).left) || 0;
+            child.dataset.fitWidth = child.getBoundingClientRect().width / (Number(container.dataset.fitScale) || 1);
+            child.dataset.fitFullWidth = child.dataset.fitWidth &gt;= baseWidth - 2 ? "true" : "false";
+            child.dataset.fitBaseWidth = child.dataset.fitFullWidth === "true" ? baseWidth : child.dataset.fitWidth;
+        }
+
+        var originalLeft = Number(child.dataset.fitLeft);
+        var originalWidth = Number(child.dataset.fitWidth);
+        var availableGap = Math.max(0, baseWidth - originalWidth);
+        var spread = availableGap ? (targetWidth - baseWidth) * (originalLeft / availableGap) : 0;
+
+        child.style.left = (originalLeft + spread) + "px";
+        child.style.right = "auto";
+
+        if (child.dataset.fitFullWidth === "true") {
+            child.style.width = targetWidth + "px";
+        }
+
+        if (child.children.length) {
+            spreadContainer(child, child.dataset.fitFullWidth === "true" ? targetWidth : originalWidth);
+        }
+    });
+}
+
+function fitHomeHero(page, targetWidth) {
+    var heroLeft = page.querySelector(".hero-left");
+    var heroPhoto = page.querySelector(".hero-photo");
+    var heroShield = page.querySelector(".hero-shield");
+
+    if (heroLeft == null || heroPhoto == null || heroShield == null) {
+        return;
+    }
+
+    var halfWidth = targetWidth / 2;
+
+    heroLeft.style.left = "0px";
+    heroLeft.style.width = halfWidth + "px";
+    heroPhoto.style.left = halfWidth + "px";
+    heroPhoto.style.width = halfWidth + "px";
+    heroShield.style.left = (halfWidth - 120) + "px";
+}
+
+function fitPage() {
+    var page = document.getElementsByClassName("webpage")[0];
+
+    if (page == null) {
+        return;
+    }
+
+    var holder = document.getElementById("pageHolder");
+
+    if (holder == null) {
+        holder = document.createElement("div");
+        holder.id = "pageHolder";
+        page.parentNode.insertBefore(holder, page);
+        holder.appendChild(page);
+    }
+
+    var viewportWidth = window.innerWidth;
+    var viewportHeight = window.innerHeight;
+    var scale = Math.min(1, viewportWidth / 1496, viewportHeight / 850);
+    var layoutWidth = viewportWidth / scale;
+    var topSpace = Math.max(0, (viewportHeight - (850 * scale)) / 2);
+
+    page.dataset.fitScale = scale;
+    page.dataset.fitBaseWidth = "1496";
+    page.style.width = layoutWidth + "px";
+    page.style.transformOrigin = "top left";
+    page.style.transform = "scale(" + scale + ")";
+    page.style.marginLeft = "0px";
+    page.style.marginTop = topSpace + "px";
+
+    spreadContainer(page, layoutWidth);
+    fitHomeHero(page, layoutWidth);
+
+    holder.style.width = viewportWidth + "px";
+    holder.style.height = viewportHeight + "px";
+}
+
+fitPage();
+window.onresize = fitPage;
+
+
+function listenAction() {
+    var main = document.getElementById("main");
+
+    if (main != null &amp;&amp; "speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+
+        var speech = new SpeechSynthesisUtterance(main.innerText);
+        speech.rate = 0.9;
+
+        window.speechSynthesis.speak(speech);
+    }
+}
+
+var listenButton = document.getElementById("listenButton");
+
+if (listenButton != null) {
+    listenButton.onclick = listenAction;
+}
+
+
+function setCookie(name, value) {
+    document.cookie = name + "=" + value + "; path=/; max-age=2592000";
+}
+
+function getCookie(name) {
+    var search = name + "=";
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i &lt; cookies.length; i++) {
+        var cookie = cookies[i].trim();
+
+        if (cookie.indexOf(search) == 0) {
+            return cookie.substring(search.length);
+        }
+    }
+
+    return "";
+}
+
+
+/* HELP PAGE TEXT SIZE CONTROLS */
+
+var currentTextScale = 1;
+
+function storeOriginalTextSizes() {
+    var main = document.getElementById("main");
+
+    if (main == null) {
+        return;
+    }
+
+    var elements = main.querySelectorAll("h1, h2, h3, p, li, a, button, strong, span, small");
+
+    for (var i = 0; i &lt; elements.length; i++) {
+        var element = elements[i];
+
+        if (element.getAttribute("data-original-font-size") == null) {
+            var style = window.getComputedStyle(element);
+            var fontSize = parseFloat(style.fontSize);
+
+            if (!isNaN(fontSize)) {
+                element.setAttribute("data-original-font-size", fontSize);
+            }
+
+            if (style.lineHeight != "normal") {
+                var lineHeight = parseFloat(style.lineHeight);
+
+                if (!isNaN(lineHeight)) {
+                    element.setAttribute("data-original-line-height", lineHeight);
+                }
+            }
+        }
+    }
+}
+
+function applyTextScale(scale) {
+    var main = document.getElementById("main");
+
+    if (main == null) {
+        return;
+    }
+
+    storeOriginalTextSizes();
+
+    var elements = main.querySelectorAll("h1, h2, h3, p, li, a, button, strong, span, small");
+
+    for (var i = 0; i &lt; elements.length; i++) {
+        var element = elements[i];
+        var originalSize = Number(element.getAttribute("data-original-font-size"));
+
+        if (originalSize &gt; 0) {
+            element.style.fontSize = (originalSize * scale) + "px";
+        }
+
+        var originalLineHeight = element.getAttribute("data-original-line-height");
+
+        if (originalLineHeight != null &amp;&amp; Number(originalLineHeight) &gt; 0) {
+            element.style.lineHeight = (Number(originalLineHeight) * scale) + "px";
+        }
+    }
+
+    currentTextScale = scale;
+
+    var status = document.getElementById("textSizeStatus");
+
+    if (status != null) {
+        if (scale &gt; 1) {
+            status.textContent = "Current text size: Larger";
+        } else if (scale &lt; 1) {
+            status.textContent = "Current text size: Smaller";
+        } else {
+            status.textContent = "Current text size: Normal";
+        }
+    }
+}
+
+function largerText() {
+    applyTextScale(1.15);
+}
+
+function smallerText() {
+    applyTextScale(0.90);
+}
+
+function resetText() {
+    applyTextScale(1);
+}
+
+var largerTextButton = document.getElementById("largerTextButton");
+var smallerTextButton = document.getElementById("smallerTextButton");
+var resetTextButton = document.getElementById("resetTextButton");
+
+if (largerTextButton != null) {
+    largerTextButton.onclick = largerText;
+}
+
+if (smallerTextButton != null) {
+    smallerTextButton.onclick = smallerText;
+}
+
+if (resetTextButton != null) {
+    resetTextButton.onclick = resetText;
+}
+
+
+/* LESSON QUESTIONS */
+
+var lessonAnswers = {
+    email1: { correct: "b", message: "Do not use the urgent link. Open the official app or contact the bank using a number you already trust." },
+    email2: { correct: "a", message: "An unexpected request for a security code is a warning sign." },
+    email3: { correct: "b", message: "Verify the message using a trusted contact method instead of trusting the message itself." },
+
+    web1: { correct: "b", message: "The full website address is a stronger clue than logos or professional design." },
+    web2: { correct: "a", message: "HTTPS protects the connection, but it does not prove the website itself is genuine." },
+    web3: { correct: "b", message: "An official app or saved bookmark avoids unexpected links." },
+
+    wifi1: { correct: "b", message: "Your own mobile data or waiting for a trusted connection is safer for banking." },
+    wifi2: { correct: "b", message: "Sensitive logins and payments are best avoided on unfamiliar public Wi-Fi." },
+    wifi3: { correct: "b", message: "Use networks you recognise and trust." },
+
+    pass1: { correct: "b", message: "A long unique password or passphrase is safer than reusing a short password." },
+    pass2: { correct: "a", message: "Two-factor authentication adds a second proof of identity." },
+    pass3: { correct: "b", message: "Keep one-time security codes private." }
+};
+
+var lessonProgress = {};
+
+function checkLessonAnswer(questionId, choice) {
+    var question = lessonAnswers[questionId];
+
+    if (question == null || lessonProgress[questionId] == true) {
+        return;
+    }
+
+    var letters = ["a", "b", "c"];
+    var feedback = document.getElementById(questionId + "Feedback");
+    var chosenButton = document.getElementById(questionId + choice);
+    var correctButton = document.getElementById(questionId + question.correct);
+
+    if (correctButton != null) {
+        correctButton.classList.add("correct-answer");
+    }
+
+    if (choice == question.correct) {
+        if (feedback != null) {
+            feedback.className = "lesson-feedback correct";
+            feedback.textContent = "âœ“ Correct. " + question.message;
+        }
+    } else {
+        if (chosenButton != null) {
+            chosenButton.classList.add("wrong-answer");
+        }
+
+        if (feedback != null) {
+            feedback.className = "lesson-feedback incorrect";
+            feedback.textContent = "âœ— Not quite. " + question.message;
+        }
+    }
+
+    lessonProgress[questionId] = true;
+
+    for (var i = 0; i &lt; letters.length; i++) {
+        var button = document.getElementById(questionId + letters[i]);
+
+        if (button != null) {
+            button.disabled = true;
+        }
+    }
+
+    unlockLessonButton();
+}
+
+function unlockLessonButton() {
+    var completeButton = document.getElementById("lessonCompleteButton");
+
+    if (completeButton == null) {
+        return;
+    }
+
+    var questionsOnPage = document.getElementsByClassName("lesson-question");
+    var allAnswered = true;
+
+    for (var i = 0; i &lt; questionsOnPage.length; i++) {
+        if (lessonProgress[questionsOnPage[i].id] != true) {
+            allAnswered = false;
+        }
+    }
+
+    if (allAnswered) {
+        completeButton.disabled = false;
+
+        var message = document.getElementById("completeMessage");
+
+        if (message != null) {
+            message.textContent = "âœ“ All 3 questions answered. You can now mark this lesson complete.";
+        }
+    }
+}
+
+function markLessonComplete(name) {
+    var completeButton = document.getElementById("lessonCompleteButton");
+
+    if (completeButton != null &amp;&amp; completeButton.disabled) {
+        return;
+    }
+
+    setCookie("lesson_" + name, "done");
+
+    var message = document.getElementById("completeMessage");
+
+    if (message != null) {
+        message.textContent = "âœ“ Lesson marked as complete. These skills appear again in Escape the Scam.";
+    }
+}
+
+
+/* ESCAPE THE SCAM - ALL 10 QUESTIONS ARE MULTIPLE CHOICE */
+
+var questionNumber = 0;
+var score = 0;
+var selectedAnswer = 0;
+var streak = 0;
+var gameResults = [];
+
+var questions = [
+    {
+        type: "PHISHING EMAIL",
+        title: "Your bank sends you an urgent message",
+        scenario: "URGENT: Your account will be closed in 30 minutes. Click this link now and enter your password.",
+        answerOne: "Click the link quickly so the account stays open.",
+        answerTwo: "Do not click. Open the bank app or call using a trusted number.",
+        correct: 2,
+        tip: "Phishing often creates urgency or fear. Stop and verify the message using contact details you already trust."
+    },
+    {
+        type: "FAKE WEBSITE",
+        title: "Which website address is safer?",
+        scenario: "You want to log in to your bank and two different web addresses appear.",
+        answerOne: "https://www.mybank.com.au",
+        answerTwo: "http://mybank-login-bonus.example",
+        correct: 1,
+        tip: "Read the full address carefully. HTTPS helps protect the connection, but the address still needs to belong to the real organisation."
+    },
+    {
+        type: "PUBLIC WI-FI",
+        title: "You need to transfer money at a cafÃ©",
+        scenario: "Your phone is connected to an unfamiliar free public Wi-Fi network.",
+        answerOne: "Do the transfer now because public Wi-Fi is always safe.",
+        answerTwo: "Wait or use your own mobile data for the banking task.",
+        correct: 2,
+        tip: "Avoid sensitive accounts on unfamiliar public Wi-Fi. A trusted connection or your own mobile data is safer."
+    },
+    {
+        type: "PASSWORD SAFETY",
+        title: "Choose the stronger password habit",
+        scenario: "You are creating a new important account.",
+        answerOne: "Reuse one short password so it is easy to remember.",
+        answerTwo: "Use a long, unique password or passphrase.",
+        correct: 2,
+        tip: "A long unique password reduces the chance that one stolen password exposes several accounts."
+    },
+    {
+        type: "TWO-FACTOR AUTHENTICATION",
+        title: "The account offers 2FA",
+        scenario: "You can add a second sign-in step using a code from your phone.",
+        answerOne: "Turn it on because it adds another layer of security.",
+        answerTwo: "Turn it off because a password is always enough.",
+        correct: 1,
+        tip: "Two-factor authentication adds another proof of identity if someone steals your password."
+    },
+    {
+        type: "SUSPICIOUS MESSAGE",
+        title: "A friend sends an unexpected link",
+        scenario: "The message says: 'Is this you in this video?' followed by a strange link.",
+        answerOne: "Open it because the message came from a friend.",
+        answerTwo: "Contact your friend another way before opening the link.",
+        correct: 2,
+        tip: "A trusted person's account can be hacked. If a message is unusual, confirm it another way before opening links."
+    },
+    {
+        type: "PERSONAL INFORMATION",
+        title: "A caller asks for a verification code",
+        scenario: "Someone claiming to be from your bank asks you to read out a one-time security code sent to your phone.",
+        answerOne: "Give them the code because they said they are from the bank.",
+        answerTwo: "Do not share the code. End the call and contact the bank yourself.",
+        correct: 2,
+        tip: "One-time codes are security information. Never give one to an unexpected caller or message sender."
+    },
+    {
+        type: "SOFTWARE UPDATE",
+        title: "Your device says an update is available",
+        scenario: "The update appears through your device's normal Settings menu.",
+        answerOne: "Install trusted updates because they can fix security problems.",
+        answerTwo: "Never install updates because updates are usually scams.",
+        correct: 1,
+        tip: "Updates from the device's normal settings or official app store can fix known security weaknesses."
+    },
+    {
+        type: "BANKING LINK",
+        title: "You receive an unexpected banking link",
+        scenario: "A text message says there is a problem with your account and tells you to sign in using the link.",
+        answerOne: "Use the link because the message says it is urgent.",
+        answerTwo: "Ignore the link and open the official bank app or website yourself.",
+        correct: 2,
+        tip: "Do not use unexpected banking links. Open the official app or type the trusted website address yourself."
+    },
+    {
+        type: "UNIQUE PASSWORD",
+        title: "Why is a unique password safer?",
+        scenario: "You are deciding whether to reuse the same password on several accounts.",
+        answerOne: "If one password is stolen, your other accounts can still have different passwords.",
+        answerTwo: "Using the same password everywhere makes every account safer.",
+        correct: 1,
+        tip: "Unique passwords stop one stolen password from automatically giving access to your other accounts."
+    }
+];
+
+function updateGameProgress() {
+    var bars = document.querySelectorAll(".game-progress span");
+
+    for (var i = 0; i &lt; bars.length; i++) {
+        bars[i].className = "";
+
+        if (gameResults[i] == true) {
+            bars[i].classList.add("correct-progress");
+        } else if (gameResults[i] == false) {
+            bars[i].classList.add("wrong-progress");
+        } else if (i == questionNumber) {
+            bars[i].classList.add("current");
+        }
+    }
+}
+
+function showQuestion() {
+    var gameType = document.getElementById("gameType");
+
+    if (gameType == null) {
+        return;
+    }
+
+    var q = questions[questionNumber];
+    selectedAnswer = 0;
+
+    document.getElementById("gameType").textContent = q.type;
+    document.getElementById("gameQuestion").textContent = q.title;
+    document.getElementById("scenario").textContent = q.scenario;
+    document.getElementById("questionCount").textContent = (questionNumber + 1) + " of " + questions.length;
+    document.getElementById("scoreText").textContent = score + " / " + questions.length;
+
+    var streakText = document.getElementById("streakText");
+
+    if (streakText != null) {
+        streakText.textContent = streak + " â˜…";
+    }
+
+    var answerOne = document.getElementById("answerOne");
+    var answerTwo = document.getElementById("answerTwo");
+    var feedback = document.getElementById("feedback");
+    var teach = document.getElementById("teach");
+    var checkButton = document.getElementById("checkButton");
+    var nextButton = document.getElementById("nextButton");
+
+    answerOne.textContent = "A. " + q.answerOne;
+    answerTwo.textContent = "B. " + q.answerTwo;
+
+    answerOne.className = "game-answer answer-left";
+    answerTwo.className = "game-answer answer-right";
+
+    answerOne.disabled = false;
+    answerTwo.disabled = false;
+
+    feedback.className = "game-feedback";
+    feedback.textContent = "Choose an answer, then press Check answer.";
+    teach.textContent = "";
+
+    checkButton.style.display = "block";
+    checkButton.disabled = false;
+    nextButton.style.display = "none";
+
+    updateGameProgress();
+}
+
+function chooseAnswer(answer) {
+    selectedAnswer = answer;
+
+    var answerOne = document.getElementById("answerOne");
+    var answerTwo = document.getElementById("answerTwo");
+
+    if (answerOne == null || answerTwo == null) {
+        return;
+    }
+
+    answerOne.classList.remove("selected");
+    answerTwo.classList.remove("selected");
+
+    if (answer == 1) {
+        answerOne.classList.add("selected");
+    } else {
+        answerTwo.classList.add("selected");
+    }
+}
+
+function checkAnswer() {
+    var q = questions[questionNumber];
+    var feedback = document.getElementById("feedback");
+    var teach = document.getElementById("teach");
+    var answerOne = document.getElementById("answerOne");
+    var answerTwo = document.getElementById("answerTwo");
+
+    if (selectedAnswer == 0) {
+        feedback.className = "game-feedback incorrect";
+        feedback.textContent = "âœ— Choose an answer first, then press Check answer.";
+        return;
+    }
+
+    var correct = selectedAnswer == q.correct;
+    gameResults[questionNumber] = correct;
+
+    if (q.correct == 1) {
+        answerOne.classList.add("correct-choice");
+    } else {
+        answerTwo.classList.add("correct-choice");
+    }
+
+    if (correct) {
+        score = score + 1;
+        streak = streak + 1;
+        feedback.className = "game-feedback correct";
+        feedback.textContent = "âœ“ CORRECT â€” great safe choice.";
+    } else {
+        streak = 0;
+
+        if (selectedAnswer == 1) {
+            answerOne.classList.add("wrong-choice");
+        } else {
+            answerTwo.classList.add("wrong-choice");
+        }
+
+        feedback.className = "game-feedback incorrect";
+        feedback.textContent = "âœ— INCORRECT â€” the safer answer is highlighted.";
+    }
+
+    teach.innerHTML = "&lt;strong&gt;Why it matters:&lt;/strong&gt; " + q.tip;
+
+    document.getElementById("scoreText").textContent = score + " / " + questions.length;
+
+    var streakText = document.getElementById("streakText");
+
+    if (streakText != null) {
+        streakText.textContent = streak + " â˜…";
+    }
+
+    answerOne.disabled = true;
+    answerTwo.disabled = true;
+
+    document.getElementById("checkButton").style.display = "none";
+    document.getElementById("nextButton").style.display = "block";
+
+    updateGameProgress();
+}
+
+function nextQuestion() {
+    questionNumber = questionNumber + 1;
+
+    if (questionNumber &lt; questions.length) {
+        showQuestion();
+    } else {
+        setCookie("gameScore", score);
+
+        try {
+            localStorage.setItem("gameScore", score);
+        } catch (e) {
+        }
+
+        window.location.href = "game-complete.html";
+    }
+}
+
+var answerOneButton = document.getElementById("answerOne");
+
+if (answerOneButton != null) {
+    answerOneButton.onclick = function () {
+        chooseAnswer(1);
+    };
+
+    document.getElementById("answerTwo").onclick = function () {
+        chooseAnswer(2);
+    };
+
+    document.getElementById("checkButton").onclick = checkAnswer;
+    document.getElementById("nextButton").onclick = nextQuestion;
+
+    showQuestion();
+}
+
+
+/* RESULTS PAGE */
+
+function showFinalResult() {
+    var finalScore = document.getElementById("finalScore");
+
+    if (finalScore == null) {
+        return;
+    }
+
+    var savedScore = getCookie("gameScore");
+
+    if (savedScore == "") {
+        try {
+            savedScore = localStorage.getItem("gameScore") || "0";
+        } catch (e) {
+            savedScore = "0";
+        }
+    }
+
+    var numberScore = Number(savedScore);
+    var title = document.getElementById("resultTitle");
+    var band = document.getElementById("resultBand");
+    var message = document.getElementById("resultMessage");
+
+    finalScore.textContent = numberScore + " / 10";
+
+    if (numberScore &gt;= 9) {
+        band.textContent = "CYBER SAFETY CHAMPION";
+        title.textContent = "Outstanding scam spotting!";
+        message.textContent = "You recognised nearly every risky situation. Keep using the same stop, check and verify habits online.";
+    } else if (numberScore &gt;= 7) {
+        band.textContent = "STRONG SCAM SPOTTER";
+        title.textContent = "Great work!";
+        message.textContent = "You spotted most of the risky situations. Review anything you missed and try the game again when you are ready.";
+    } else if (numberScore &gt;= 5) {
+        band.textContent = "CYBER SAFETY LEARNER";
+        title.textContent = "Good progress!";
+        message.textContent = "You have a useful starting point. Review the four lessons, then try Escape the Scam again.";
+    } else {
+        band.textContent = "BUILDING CONFIDENCE";
+        title.textContent = "Keep practising!";
+        message.textContent = "Review the short lessons and their three practice questions, then come back to the game. The aim is to build confidence.";
+    }
+}
+
+showFinalResult();
+
+</pre>
+</body></html>

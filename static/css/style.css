@@ -242,7 +242,6 @@ button,input {
     width:240px;
     height:270px;
     object-fit:contain;
-    mix-blend-mode:multiply;
     z-index:5
 }
 
