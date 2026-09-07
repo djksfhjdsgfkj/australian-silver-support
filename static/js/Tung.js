@@ -1,3 +1,41 @@
+function spreadContainer(container, targetWidth) {
+    var baseWidth = Number(container.dataset.fitBaseWidth);
+
+    if (!baseWidth) {
+        baseWidth = container.getBoundingClientRect().width / (Number(container.dataset.fitScale) || 1);
+        container.dataset.fitBaseWidth = baseWidth;
+    }
+
+    Array.from(container.children).forEach(function (child) {
+        if (getComputedStyle(child).position !== "absolute") {
+            return;
+        }
+
+        if (child.dataset.fitLeft == null) {
+            child.dataset.fitLeft = parseFloat(getComputedStyle(child).left) || 0;
+            child.dataset.fitWidth = child.getBoundingClientRect().width / (Number(container.dataset.fitScale) || 1);
+            child.dataset.fitFullWidth = child.dataset.fitWidth >= baseWidth - 2 ? "true" : "false";
+            child.dataset.fitBaseWidth = child.dataset.fitFullWidth === "true" ? baseWidth : child.dataset.fitWidth;
+        }
+
+        var originalLeft = Number(child.dataset.fitLeft);
+        var originalWidth = Number(child.dataset.fitWidth);
+        var availableGap = Math.max(0, baseWidth - originalWidth);
+        var spread = availableGap ? (targetWidth - baseWidth) * (originalLeft / availableGap) : 0;
+
+        child.style.left = (originalLeft + spread) + "px";
+        child.style.right = "auto";
+
+        if (child.dataset.fitFullWidth === "true") {
+            child.style.width = targetWidth + "px";
+        }
+
+        if (child.children.length) {
+            spreadContainer(child, child.dataset.fitFullWidth === "true" ? targetWidth : originalWidth);
+        }
+    });
+}
+
 function fitPage() {
     var page = document.getElementsByClassName("webpage")[0];
 
@@ -14,16 +52,21 @@ function fitPage() {
         holder.appendChild(page);
     }
 
-    var viewportWidth = document.documentElement.clientWidth;
-    var viewportHeight = document.documentElement.clientHeight;
+    var viewportWidth = window.innerWidth;
+    var viewportHeight = window.innerHeight;
     var scale = Math.min(1, viewportWidth / 1496, viewportHeight / 850);
-    var sideSpace = Math.max(0, (viewportWidth - (1496 * scale)) / 2);
+    var layoutWidth = viewportWidth / scale;
     var topSpace = Math.max(0, (viewportHeight - (850 * scale)) / 2);
 
+    page.dataset.fitScale = scale;
+    page.dataset.fitBaseWidth = "1496";
+    page.style.width = layoutWidth + "px";
     page.style.transformOrigin = "top left";
     page.style.transform = "scale(" + scale + ")";
-    page.style.marginLeft = sideSpace + "px";
+    page.style.marginLeft = "0px";
     page.style.marginTop = topSpace + "px";
+
+    spreadContainer(page, layoutWidth);
 
     holder.style.width = viewportWidth + "px";
     holder.style.height = viewportHeight + "px";
